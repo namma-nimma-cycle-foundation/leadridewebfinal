@@ -1,0 +1,52 @@
+---
+sidebar_position: 3
+---
+
+# Quickstart
+
+Quickly get started with UI Kit, with just a few lines of code!
+
+:::info Before Getting Started
+
+Before you start integrating Dyte into your application, make sure you've read
+the [Getting Started with Dyte](/getting-started) topic and completed the steps
+in the [Integrate Dyte](/getting-started#integrate-dyte) section.
+
+:::
+
+First you would need to setup your project with the provided hooks and the
+`<DyteProvider />`.
+
+```html
+<body>
+  <dyte-meeting id="my-meeting"></dyte-meeting>
+
+  <script>
+    const init = async () => {
+      const meeting = await DyteClient.init({
+        authToken: '',
+        roomName: '',
+        defaults: {
+          audio: true,
+          video: true,
+        },
+      });
+
+      document.getElementById('my-meeting').meeting = meeting;
+    };
+
+    init();
+  </script>
+</body>
+```
+
+:::tip
+
+Try adding `show-setup-screen="true"` prop on `<dyte-meeting />` to enable the
+Setup Screen.
+
+:::
+
+<head>
+  <title>Quickstart - UI Kit | Dyte</title>
+</head>
