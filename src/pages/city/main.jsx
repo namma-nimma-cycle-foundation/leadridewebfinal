@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import GalleryFeature from './components/GalleryFeature';
 import GalleryFeature2 from './components/GalleryFeature2';
+import ReasonLeadRideFeature from './components/ReasonLeadRideFeature';
 
 export default function MainPage() {
    
@@ -26,6 +27,7 @@ export default function MainPage() {
   
 
   <main>
+    
   <section className="bg-white dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div className="mr-auto place-self-center lg:col-span-7">
@@ -54,7 +56,8 @@ export default function MainPage() {
         </div>
     </section>
 
-        
+    <ReasonLeadRideFeature></ReasonLeadRideFeature>
+
 
        {/* A JSX comment 
        
@@ -69,23 +72,24 @@ export default function MainPage() {
         <div className="px-5 sm:px-10 md:px-20 lg:px-10 xl:px-20 py-8 bg-indigo-100" id="features">
           <div className="max-w-screen-xl mx-auto">
             <h3 className="leading-none font-black text-3xl">
-              Lead Ride City Pillars
+              Lead Ride -  How it works
+
             </h3>
 
             <div className="flex flex-col items-center flex-wrap lg:flex-row lg:items-stretch lg:flex-no-wrap lg:justify-between">
               <div className="w-full max-w-sm mt-6 lg:mt-8 bg-gray-100 rounded shadow-lg p-12 lg:p-8 lg:mx-4 xl:p-12">
                 <div className="p-4 inline-block bg-indigo-200 rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
 </svg>
 
                 </div>
                 <div className="mt-4 font-extrabold text-2xl tracking-wide">
-                  Ecosystem Mapping & Consortium 
+                Envision  
                 </div>
                 <div className="text-sm">
-                  Lead Ride maps the critical players in the active mobility and creates a consortium with working groups to contribute and commit to 
-                  enable Active Mobility. 
+                  Lead Ride  maps the critical players in the active mobility and creates a consortium with working groups to contribute and commit to 
+                  enable Active Mobility.    Lead Ride in association with the city envisions programs and projects to demonstrate success.
                 </div>
               </div>
 
@@ -97,26 +101,28 @@ export default function MainPage() {
                   </svg>
                 </div>
                 <div className="mt-4 font-extrabold text-2xl tracking-wide">
-                 Pledge
+                Align
                 </div>
                 <div className="text-sm">
-                  The city commits the funding for the program and the resources required for the enablement of Lead Ride.
+              The city commits the funding for the program. <br></br>The city facilitates relevant organizational and the resources required for the enablement of Lead Ride.
+              <br></br> The city ensures stakeholder alignment.  <br></br>Identify capability gaps and cross-organizational dependencies. 
                 </div>
               </div>
 
               <div className="w-full max-w-sm mt-8 bg-gray-100 rounded shadow-lg p-12 lg:p-8 lg:mx-4 xl:p-12">
                 <div className="p-4 inline-block bg-red-200 rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.87c1.355 0 2.697.055 4.024.165C17.155 8.51 18 9.473 18 10.608v2.513m-3-4.87v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.38a48.474 48.474 0 00-6-.37c-2.032 0-4.034.125-6 .37m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.17c0 .62-.504 1.124-1.125 1.124H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12M12.265 3.11a.375.375 0 11-.53 0L12 2.845l.265.265zm-3 0a.375.375 0 11-.53 0L9 2.845l.265.265zm6 0a.375.375 0 11-.53 0L15 2.845l.265.265z" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.87c1.355 0 2.697.055 4.024.165C17.155 8.51 18 9.473 18 10.608v2.513m-3-4.87v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.38a48.474 48.474 0 00-6-.37c-2.032 0-4.034.125-6 .37m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.094 1.837 2.175v5.17c0 .62-.504 1.124-1.125 1.124H4.125A1.125 1.125 0 013 20.625v-5.17c0-1.08.768-2.014 1.837-2.174A47.78 47.78 0 016 13.12M12.265 3.11a.375.375 0 11-.53 0L12 2.845l.265.265zm-3 0a.375.375 0 11-.53 0L9 2.845l.265.265zm6 0a.375.375 0 11-.53 0L15 2.845l.265.265z" />
 </svg>
 
                 </div>
                 <div className="mt-4 font-extrabold text-2xl tracking-wide">
-                  Celebration
+                  Launch
                 </div>
                 <div className="text-sm">
-                  Money is held by us in escrow subject to project completion. If there is any dispute, a customer
-                  service representative will manually review the case and take appropriate action.
+                City & NNCF & Stakeholders
+jointly organize the Lead Ride on World
+Cycle Day June 3.
                 </div>
               </div>
             </div>
@@ -263,16 +269,16 @@ export default function MainPage() {
           <div className="max-w-screen-xl mx-auto">
             <div className="xl:flex">
               <div>
-                <h3 className="leading-none font-black text-3xl">Popular Posts</h3>
+                <h3 className="leading-none font-black text-3xl">Lead ride - A Catalyst</h3>
+                Dedicated to creating a more equitable and sustainable world by Cycling Together.
                 <div className="flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-around">
-                  <a href="https://owaiskhan.me" className="flex w-full max-w-sm mt-6 lg:mt-8 xl:mr-8">
+                  <a href="#" className="flex w-full max-w-sm mt-6 lg:mt-8 xl:mr-8">
                     <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
                       <div className="w-full h-48 bg-cover rounded-t-lg"    style={myStyle1}></div>
                       <div className="p-6">
-                        <div className="text-lg font-bold">Tips for creating an amazing design system</div>
+                        <div className="text-lg font-bold">Public Health</div>
                         <div className="mt-2 text-gray-900 text-sm">
-                          Learn how to create a new design system that is beautiful and efficient for creating your UI
-                          components.
+                          Cities will be significantly improve the health of the citizens with Lead Ride Awareness and Activation Framework.
                         </div>
                       </div>
                     </div>
@@ -282,10 +288,9 @@ export default function MainPage() {
                     <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg bg-gray-100 relative">
                       <div className="w-full h-48 bg-cover rounded-t-lg"   style={myStyle1} ></div>
                       <div className="p-6">
-                        <div className="text-lg font-bold">Using a drawing tablet to create beautiful icons</div>
+                        <div className="text-lg font-bold">Urban Mobility</div>
                         <div className="mt-2 text-gray-900 text-sm">
-                          Good Icons are hard to come by. This article guides you on how to create beautiful sketched
-                          icons using a drawing pad.
+                          Boosting Active mobility  Integration with Public Transport will reduce traffic - save money and enhance the branding of the city.
                         </div>
                       </div>
                     </div>
@@ -294,31 +299,29 @@ export default function MainPage() {
               </div>
 
               <div className="mt-12 xl:mt-0 xl:ml-8">
-                <h3 className="leading-none font-black text-3xl">Recent Posts</h3>
+                <h3 className="leading-none font-black text-3xl">Sustainable mobility Innovation</h3>
                 <div className="flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-around xl:flex-col">
-                  <a href="https://owaiskhan.me" className="flex w-full max-w-sm mt-6 lg:mt-8">
+                  <a href="#" className="flex w-full max-w-sm mt-6 lg:mt-8">
                     <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg
                     bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8">
                       <div className="w-full h-48 bg-cover rounded-t-lg xl:w-32 xl:h-20 xl:rounded-lg xl:ml-2"   style={myStyle1} ></div>
                       <div className="p-6 xl:p-0">
-                        <div className="text-lg font-bold">How to work effectively with freelancers</div>
-                        <div className="mt-2 text-gray-900 text-sm xl:hidden">
-                          Hiring a freelancer for your new project can be challenging if you've never done before. Learn
-                          some tips that will allow you to have a better experience working with freelancers
+                        <div className="text-lg font-bold">Active Mobility Innovation</div>
+                        <div className="mt-2 text-gray-900 text-sm ">
+                          Augment the work of design and innovation in Cycling and E-bikes.
                         </div>
                       </div>
                     </div>
                   </a>
 
-                  <a href="https://owaiskhan.me" className="flex w-full max-w-sm mt-6 lg:mt-8">
+                  <a href="#" className="flex w-full max-w-sm mt-6 lg:mt-8">
                     <div className="transition-all duration-300 cursor-pointer w-full shadow-lg hover:shadow-xl rounded-lg
                     bg-gray-100 relative xl:flex xl:flex-row-reverse xl:items-center xl:px-6 xl:py-8">
                       <div className="w-full h-48 bg-cover rounded-t-lg xl:w-32 xl:h-20 xl:rounded-lg xl:ml-2"   style={myStyle1}></div>
                       <div className="p-6 xl:p-0">
-                        <div className="text-lg font-bold">How to create smooth React Native animations</div>
-                        <div className="mt-2 text-gray-900 text-sm xl:hidden">
-                          Animations play a vital role in user experience. This article describes how you can create
-                          butter smooth 60 FPS animations easily.
+                        <div className="text-lg font-bold">Holistic and Systemic approach </div>
+                        <div className="mt-2 text-gray-900 text-sm  ">
+                        Streamlined approach  to Active Mobility futures by System Thinking and People Integration
                         </div>
                       </div>
                     </div>
@@ -330,7 +333,7 @@ export default function MainPage() {
           </div>
         </div>
         <GalleryFeature></GalleryFeature>
-        <GalleryFeature2></GalleryFeature2>
+        
 
       </main>
 </div>     

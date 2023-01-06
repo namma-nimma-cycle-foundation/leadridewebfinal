@@ -24,16 +24,27 @@ export default function APIReferenceSection() {
         <div className="flex-1">
           <h2 className="text-4xl">What is Lead Ride </h2>
           <p className="text-zinc-400">
-          Lead ride is a communities-centric movement designed to empower citizens to transform cities and places into active mobility spaces. the movement  supports citizens and leaders to relaim spaces and reimagine mobility.
-          </p>
+          A Movement to bring together leaders, communities and decision makers to
+immersively CYCLE TOGETHER and connect to each other and the urban
+spaces, so as to transform their neighborhoods into happy and healthy
+places.        </p>
          
           <ul className="mt-10 flex list-none flex-col gap-4 text-left lg:pl-0">
             <li className="flex flex-col gap-2">
-             
+            <div className="flex-1">
+        <h2 className="text-4xl">Vision  </h2>
+          <p className="text-2xl text-zinc-400">
+          Lead, ride and shape the future
+of mobility by cycling together  </p>
+          </div>
+            <h2 className="text-4xl">Mission   </h2>
               <h1 className="text-2xl">Lead Ride For Cities </h1>             
               <div className="text-zinc-400 text-1xl">
-                Making Cities Happy and Healthy <br></br  > <Link href="/api" className="text-primary-100 dark:text-primary">
-            Get started with Lead Ride For Cities &rarr;
+                
+ Lead ride is a communities-centric movement designed to empower citizens to transform cities and places into active mobility spaces. 
+ The movement  supports citizens and leaders to relaim spaces and reimagine mobility.<br></br  >
+ <br></br  >Let us Co-create, Co-operate, and Co-design Shared Healthy and Happy Spaces in Cities.<br></br  > <Link href="/city/main" className="text-primary-100 dark:text-primary">
+            Get started Making Cities Happy and Healthy &rarr;
                 </Link>
               </div>
             
@@ -42,11 +53,13 @@ export default function APIReferenceSection() {
             <h1 className="text-2xl">                Lead Ride For Companies  </h1>   
               
               <div className="text-zinc-400 py-1 text-1xl">
-               Employee Wellbeing, Agility and Productivity
+              Build the momentum towards active mobility
+future by creating a change maker  across the corporate
+world, thereby supporting wellbeing and active lifestyle of employees. 
               </div>
               <div className="text-zinc-400 text-1xl">
-                  <Link href="/api" className="text-primary-100 dark:text-primary">
-            Get started with Lead Ride For Companies &rarr;
+                  <Link href="//company/main" className="text-primary-100 dark:text-primary">
+            Get started with Employee Wellbeing, Agility and Productivity &rarr;
                 </Link>
               </div>
             </li>
@@ -54,16 +67,19 @@ export default function APIReferenceSection() {
             <h1 className="text-2xl">     Lead Ride For Campus</h1>
               
               <div className="text-zinc-400">
-                Student Wellbeing & Sustainable Campus
+                Enable Active Mobility by Empowering youth to
+build livable spaces, thriving & healthy campuses and
+conscious community of youth.
               </div>
-              <Link href="/api" className="text-primary-100 dark:text-primary">
-            Get started with Lead Ride For Campus &rarr;
+              <Link href="//campus/main" className="text-primary-100 dark:text-primary">
+            Get started with  Student Wellbeing & Sustainable Campus &rarr;
                 </Link>
             </li>
           </ul>
         </div>
         <div className="flex flex-1 justify-end">
-          <img
+       
+        <img
             src={`/static/landing-page/api-ref-${colorMode}.png`}
             alt="API Reference Preview"
           />

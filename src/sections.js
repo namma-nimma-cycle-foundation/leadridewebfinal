@@ -77,7 +77,7 @@ const SECTIONS = [
   },
   // Mobile SDKs
   {
-    name: 'Android Core',
+    name: 'Android-Core',
     id: 'android-core',
     icon: AndroidIcon,
     section: 'mobile-core',

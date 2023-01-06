@@ -260,6 +260,14 @@ export default function SDKsSection() {
                   label="Immersive Experience"
                 />
               </li>
+
+              <li>
+                <SDKLink
+                  href="city-core"
+                  Icon={KotlinIcon}
+                  label="City Immersive Experience"
+                />
+              </li>
               <li>
                 <SDKLink
                   Icon={FlutterIcon}

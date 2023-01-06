@@ -1,5 +1,33 @@
- 
-import React from 'react';  
+
+import React from 'react';   
+
+const SimpleCard = ({ image , title}) => {
+  if (!image) return <div />;
+  return (
+
+    <a href="#" className="group h-48 md:h-96 flex justify-end items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+    <img src={image} loading="lazy" alt="Photo by Minh Pham" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+    <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
+    <span className="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">{title}</span>
+  </a> 
+  );
+};
+
+const SimpleCardList = ({prop}) => {
+  return (
+    <div>
+      prop.map((item, index) =>
+       <div key={item.id}>
+        <SimpleCard
+                image={item.image}
+                title={item.title} 
+          />
+          </div>
+      )
+    </div>
+  );
+};
+
 
 export default function GalleryFeature() {
    
@@ -11,9 +39,9 @@ export default function GalleryFeature() {
   <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
     
     <div className="mb-10 md:mb-16">
-      <h2 className="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">Gallery</h2>
+      <h2 className="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">Themes for the Future City</h2>
 
-      <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+      <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">   Building the future of mobility together.</p>
     </div>
   
 
@@ -24,7 +52,7 @@ export default function GalleryFeature() {
 
         <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
 
-        <span className="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Actors</span>
+        <span className="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Wellness</span>
       </a>
       
       <a href="#" className="group h-48 md:h-96 flex justify-end items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
@@ -32,7 +60,7 @@ export default function GalleryFeature() {
 
         <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
 
-        <span className="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Retro</span>
+        <span className="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Living Together</span>
       </a>
    
       <a href="#" className="group h-48 md:h-96 flex justify-end items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
@@ -40,7 +68,7 @@ export default function GalleryFeature() {
 
         <div className="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none"></div>
 
-        <span className="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Tech</span>
+        <span className="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3">Public Health</span>
       </a>
      
     </div>
