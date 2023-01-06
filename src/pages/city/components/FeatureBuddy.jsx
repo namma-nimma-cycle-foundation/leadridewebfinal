@@ -39,11 +39,15 @@ export default function FeatureBuddy() {
               </svg>
               <span className="relative">The</span>
             </span>{' '}
-            quick, brown fox jumps over a lazy dog
+            Global Lead Ride Champion Role
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          <h4 className="leading-none font-black text-1xl">
+                    Lead Ride team is bringing together a global network of young people leading Active Mobility Adaption -
+                     to share actions and opportunities in active mobility. 
+                    </h4> 
+
+                    
           </p>
         </div>
         <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
@@ -63,19 +67,11 @@ export default function FeatureBuddy() {
                 />
               </svg>
             </div>
-            <h6 className="mb-3 text-xl font-bold leading-5">The deep ocean</h6>
+            <h6 className="mb-3 text-xl font-bold leading-5">Inspire Communities</h6>
             <p className="mb-3 text-sm text-gray-900">
-              A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear. I didn even know we were calling him Big
-              Bear. We never had the chance to.
+            Inspire, motivate, and encourage communities to undertake community-focused actions to support walking and cyling. 
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
+            
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
@@ -93,20 +89,12 @@ export default function FeatureBuddy() {
                 />
               </svg>
             </div>
-            <h6 className="mb-3 text-xl font-bold leading-5">When has justice</h6>
+            <h6 className="mb-3 text-xl font-bold leading-5">Collaborate with  Global  Champions Network</h6>
             <p className="mb-3 text-sm text-gray-900">
-              Rough pomfret lemon shark plownose chimaera southern sandfish
-              kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin
-              gulper South American Lungfish mahi-mahi, butterflyfish glass
-              catfish soapfish ling gray mullet!
+            Join the global network of champions and help in shaping national and regional policies and in bringing 
+            Active Mobility to the mobility agenda.
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
+           
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
@@ -124,20 +112,11 @@ export default function FeatureBuddy() {
                 />
               </svg>
             </div>
-            <h6 className="mb-3 text-xl font-bold leading-5">Organically grow</h6>
+            <h6 className="mb-3 text-xl font-bold leading-5">Connect Ecosystem</h6>
             <p className="mb-3 text-sm text-gray-900">
-              A slice of heaven. O for awesome, this chocka full cuzzie is as
-              rip-off as a cracker. Meanwhile, in behind the bicycle shed,
-              Hercules Morse, as big as a horse and Mrs Falani were up to no good
-              with a bunch of crook pikelets.
+            Engage with key stakeholders - connect the ecosystem and drive collective action
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
+            
           </div>
           <div className="max-w-md sm:mx-auto sm:text-center">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
@@ -156,21 +135,13 @@ export default function FeatureBuddy() {
               </svg>
             </div>
             <h6 className="mb-3 text-xl font-bold leading-5">
-              A slice of heaven
+              Engage
             </h6>
             <p className="mb-3 text-sm text-gray-900">
-              Disrupt inspire and think tank, social entrepreneur but preliminary
-              thinking think tank compelling. Inspiring, invest synergy capacity
-              building, white paper; silo, unprecedented challenge B-corp
-              problem-solvers.
+            Actively engaged in and advocating for Active Mobility commitmnet and  action and creating a
+             network of individuals/organizations that works towards Active Mobility adaptation.
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
+            
           </div>
         </div>
       </div>
