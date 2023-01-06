@@ -66,7 +66,7 @@ export default function FeatureBuddy() {
             <h6 className="mb-3 text-xl font-bold leading-5">The deep ocean</h6>
             <p className="mb-3 text-sm text-gray-900">
               A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear. I didn't even know we were calling him Big
+              stopped old Big Bear. I didn even know we were calling him Big
               Bear. We never had the chance to.
             </p>
             <a

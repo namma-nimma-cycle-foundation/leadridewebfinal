@@ -1,7 +1,6 @@
  
 import React from 'react';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
+import Layout from '@theme/Layout'; 
  
 export default function BuddyPage() {
    
@@ -32,7 +31,7 @@ export default function BuddyPage() {
             <span className="block xl:inline">Useful Tools to</span>
             <span className="block text-indigo-600 xl:inline">Help You Build Faster.</span>
           </h1>
-          <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It's never been easier to build beautiful websites that convey your message and tell your story.</p>
+          <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It&aposs never been easier to build beautiful websites that convey your message and tell your story.</p>
           <div className="relative flex flex-col sm:flex-row sm:space-x-4">
             <a href="#_" className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto">
               Try It Free
@@ -115,7 +114,7 @@ export default function BuddyPage() {
       <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
         <div className="w-full lg:max-w-md">
           <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">Jam-packed with all the tools you need to succeed!</h2>
-          <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">It's never been easier to build a business of your own. Our tools will help you with the following:</p>
+          <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">It&aposs never been easier to build a business of your own. Our tools will help you with the following:</p>
           <ul>
             <li className="flex items-center py-2 space-x-4 xl:py-3">
               <svg className="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
@@ -141,7 +140,7 @@ export default function BuddyPage() {
 <section className="flex items-center justify-center py-20 bg-white min-w-screen">
     <div className="px-16 bg-white">
         <div className="container flex flex-col items-start mx-auto lg:items-center">
-            <p className="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center">Don't just take our word for it</p>
+            <p className="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center">Don&apost just take our word for it</p>
 
 
             <h2 className="relative flex items-start justify-start w-full max-w-3xl text-5xl font-bold lg:justify-center">
@@ -163,7 +162,7 @@ export default function BuddyPage() {
                             <p className="text-gray-600">CEO of Something</p>
                         </div>
                     </div>
-                    <blockquote className="mt-8 text-lg text-gray-500">"This is a no-brainer if you want to take your business to the next level. If you are looking for the ultimate toolset, this is it!"</blockquote>
+                    <blockquote className="mt-8 text-lg text-gray-500">This is a no-brainer if you want to take your business to the next level. If you are looking for the ultimate toolset, this is it!</blockquote>
                 </div>
                 <div className="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
                     <div className="flex items-center justify-center">
@@ -175,9 +174,9 @@ export default function BuddyPage() {
                             <p className="text-gray-600">CTO of Business</p>
                         </div>
                     </div>
-                    <blockquote className="mt-8 text-lg text-gray-500">"Thanks for creating this service. My life is so much
+                    <blockquote className="mt-8 text-lg text-gray-500">&quotThanks for creating this service. My life is so much
                         easier.
-                        Thanks for making such a great product."</blockquote>
+                        Thanks for making such a great product.</blockquote>
                 </div>
                 <div className="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
                     <div className="flex items-center justify-center">
@@ -189,9 +188,9 @@ export default function BuddyPage() {
                             <p className="text-gray-600">Creator of Stuff</p>
                         </div>
                     </div>
-                    <blockquote className="mt-8 text-lg text-gray-500">"Packed with awesome content and exactly what I was
+                    <blockquote className="mt-8 text-lg text-gray-500">Packed with awesome content and exactly what I was
                         looking
-                        for. I would highly recommend this to anyone."</blockquote>
+                        for. I would highly recommend this to anyone.</blockquote>
                 </div>
             </div>
         </div>
@@ -204,7 +203,7 @@ export default function BuddyPage() {
                 Pricing Options
             </h2>
             <p className="box-border mt-4 text-2xl leading-normal text-gray-900 border-solid">
-                We've got a plan for companies of any size
+                We&aposve got a plan for companies of any size
             </p>
         </div>
         <div className="grid max-w-md mx-auto mt-6 overflow-hidden leading-7 text-gray-900 border border-b-4 border-gray-300 border-blue-600 rounded-xl md:max-w-lg lg:max-w-none sm:mt-10 lg:grid-cols-3">

@@ -1,7 +1,5 @@
-import React from 'react';
-import Link from '@docusaurus/Link';
-import { useColorMode } from '@docusaurus/theme-common';
-import Head from '@docusaurus/Head';
+import React from 'react'; 
+import { useColorMode } from '@docusaurus/theme-common'; 
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -38,7 +36,7 @@ class DemoCarousel extends React.Component  {
   }
 }; 
 export default function HeroSection() {
-  const { colorMode } = useColorMode();
+   
 
   return (
     <div>
