@@ -125,7 +125,7 @@ export default function StepperCitySimple() {
               <p className="text-xl font-medium text-center">
               Publicly endorse the following principles:
              </p>
-              <ul class="list-inside list-disc">
+              <ul className="list-inside list-disc">
               <li>       We recognise the global climate emergency. </li>
               <li>       We  commit to support Lead Ride city wide. </li>
            
