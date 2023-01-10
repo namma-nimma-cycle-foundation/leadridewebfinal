@@ -24,7 +24,7 @@ export default function SystemFeature() {
               <div>
                  <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50"> Lead Ride Ecosystem Design </h2>
                  <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400">
-                    The new ecosystem design will need to start with the citizens  view and deliver on the "move people first" 
+                    The new ecosystem design will need to start with the citizens  view and deliver on the &quot;move people first&quot;
                     value proposition and experience..</p>
               </div>
               <EnvisionEcoFeature></EnvisionEcoFeature>

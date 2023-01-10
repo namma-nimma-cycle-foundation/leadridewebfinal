@@ -56,7 +56,7 @@ export default function ConfigureEcoFeature() {
                </div>
                <div className="ml-4">
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-50">Sign Off </h4>
-                  <p className="mt-2 dark:text-gray-400"> Sign off - Lead Ride with a Pledge and a Commitment to "Ride Safe "</p>
+                  <p className="mt-2 dark:text-gray-400"> Sign off - Lead Ride with a Pledge and a Commitment to &quot;Ride Safe &quot; </p>
                </div>
             </div>
          </div>
