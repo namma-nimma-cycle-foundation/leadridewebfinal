@@ -232,7 +232,7 @@ const config = {
             ],
           },
           {
-            label: 'Guide',
+            label: 'Design System',
             to: 'guides',
           },
           {

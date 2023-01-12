@@ -1,0 +1,39 @@
+---
+sidebar_position: 7
+description:
+  A short guide on how to integrate dyte and how dyte works with your
+  application
+---
+
+# Lead Ride  Outcomes  
+
+#
+ 
+
+## Getting Authentication Token
+
+The **Add Participant** API call returns your authentication token. See
+[Add a participant](https://docs.dyte.io/api#/operations/addParticipant). Room
+name is generated when you create a meeting. You can get the room name from the
+developer portal or using REST APIs. For more information, see
+[Create a meeting](https://docs.dyte.io/api#/operations/createMeeting).
+
+Dyte Livestreaming provides two modes of operations:
+
+1. Livestreaming Independently
+2. Livestreaming a Meeting
+
+These modes help you manage various livestream usecases. Let’s understand what
+both of these mean:
+
+- **Livestreaming Independently**: If you want to control what you stream and
+  how it is distributed, this is the way to go. Individual ingest URLs can be
+  created for ingesting a livestream from apps like OBS, ffmpeg, and others, as
+  well as playback URLs to play it in your preferred player.
+
+- **Livestreaming a Meeting**: If you want to stream a meeting to a large number
+  of people, this is an excellent option. Dyte provides APIs to automatically
+  start livestreaming a meeting, as well as an SDK player that allows users to
+  watch the livestream in high quality. For example, livestream a meeting for an
+  events platform, a virtual workspace to host large events such as hackathons,
+  conferences, or even your own metaverse party.

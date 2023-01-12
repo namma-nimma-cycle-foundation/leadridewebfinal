@@ -8,46 +8,37 @@ export default function GuidesSection({ title, className }) {
   return (
     <Section title={title} className={className}>
       <Card
-        title="Dyte Embed"
-        description="Embed a dyte meeting easily"
-        to="/guides/embed"
+        title="Big Picture"
+        description="What is Lead Ride ? What is the identity of Lead Ride ? "
+        to="/guides/big-picture"
       />
       <Card
-        title="Integrating with Webhooks"
-        description="Use webhooks to keep track of meeting events"
-        to="/guides/integrating-with-webhooks"
+        title="Lead Ride Anatomy"
+        description="How is lead ride structured ? "
+        to="/guides/anatomy"
       />
       <Card
-        title="Recording your meetings"
-        description="Record meetings easily and store in the cloud"
-        to="/guides/recording-your-meetings"
+        title="Lead Ride - How does it function ?"
+        description="How does Lead Ride Function ? "
+        to="/guides/function"
       />
 
       <Card
-        title="Livestreaming to other platforms"
-        description="Livestream to platforms like YouTube, Twitch etc."
-        to="/guides/livestreaming-other-platforms"
+        title="Lead Ride - Design Space"
+        description="Design Elements of Lead Ride ."
+        to="/guides/design"
       />
       <Card
-        title="Livestreaming API Integration Guide"
-        description="Livestream to HLS using REST APIs"
-        to="/guides/livestreaming-api-integration"
+        title="What we intend to deliver ?"
+        description="Lead ride will be rendering many creative stuff - what are they ?"
+        to="/guides/deliver"
       />
       <Card
-        title="Livestreaming any RTMP input"
-        description="Dyte allows livestreaming, via RTMP as well as HLS, for all Dyte meetings."
-        to="/guides/integrating-with-webhooks"
+        title="Lead Ride Outcomes and Impact"
+        description="What is the potential impact of Lead Ride ?."
+        to="/guides/outcomes"
       />
-      <Card
-        title="Controlling an Active Session"
-        description="Control an active meeting with REST APIs"
-        to="/guides/controlling-an-active-session"
-      />
-      <Card
-        title="Exporting Chat Dump"
-        description="Programmatically retrieve all chat messages of a session using Chat Replay API."
-        to="/guides/exporting-chat-dump"
-      />
+     
     </Section>
   );
 }
