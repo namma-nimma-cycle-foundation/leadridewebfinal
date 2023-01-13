@@ -36,7 +36,7 @@ export default function ContactPage() {
       </h3>
   </div>
 
-  <iframe frameborder="0" style={myStyle1} src=' https://form.jotform.com/230124225623443'></iframe> 
+  <iframe frameBorder="0" style={myStyle1} src=' https://form.jotform.com/230124225623443'></iframe> 
   
   
 </div>
