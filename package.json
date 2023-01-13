@@ -32,6 +32,7 @@
     "@dytesdk/web-core": "file:./modules/dytesdk-web-core-0.28.2-stripped.5.tgz",
     "@radix-ui/react-icons": "^1.1.1",
     "@radix-ui/react-select": "^0.1.1",
+    "@seegno/react-forms": "^0.15.0",
     "@stoplight/elements": "^7.7.7",
     "clsx": "^1.2.1",
     "param-case": "^3.0.4",

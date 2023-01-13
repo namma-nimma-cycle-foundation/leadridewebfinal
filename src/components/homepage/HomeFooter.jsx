@@ -29,7 +29,7 @@ export default function HomeFooter() {
           </Link>
         </div>
         <div className="flex-1 text-zinc-400 lg:text-right">
-          Copyright &copy; Dyte since 2020. All rights reserved.
+          Copyright &copy; NNCF. All rights reserved.
         </div>
       </div>
     </footer>

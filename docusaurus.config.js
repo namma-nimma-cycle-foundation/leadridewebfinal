@@ -257,7 +257,7 @@ const config = {
           },
           {
             label: 'Support',
-            to: 'https://dyte.io/contact',
+            to: '/city/contact',
           },
 
           {
@@ -343,7 +343,7 @@ const config = {
             ],
           },
         ],
-        copyright: 'Copyright © Dyte since 2020. All rights reserved.',
+        copyright: 'Copyright @ NNCF NN Cycle Foundation. All rights reserved.',
       },
       prism: {
         theme: lightCodeTheme,

@@ -14,54 +14,58 @@ import Link from '@docusaurus/Link';
  */
 const FAQs = [
   {
-    question: 'What does Dyte do?',
+    question: 'What does Lead Ride do?',
     answer: (
       <>
         <p>
-          Dyte offers a real-time video and voice solution for integrating
-          high-quality video/voice calls into your web, mobile, and desktop
-          applications and websites. Call recording, live streaming, webinars,
-          live transcription and translation, chatting, polling, quizzes, and
-          many other features are available with Dyte
+        Lead Ride offers an opportunity to cycle together and engage in solution for integrating
+          walking and cycling  into your daily life . 
+          Apart from that we help cities build and connect to existing ecosystems.
+          We have different flavours for different sectors - namely - education, industry, city and community.
+         <p> Summary - we will eventually get everyone on cycle TOGETHER - PERIOD.</p>
         </p>
 
-        <p>Dyte includes:</p>
+        <p>Lead Ride  includes:</p>
         <p>
-          <b>Core SDKs</b>: These SDKs enable you to create high-quality custom
+          <b>Lead Ride City</b>: These SDKs enable you to create high-quality custom
           video and voice calls with real-time communication. Core SDKs are
           completely customizable and simple to integrate.
         </p>
         <p>
-          <b>UI Kit</b>: Using Dyte&quot;s prebuilt design library of UI
+          <b>Lead Ride University</b>: Using Dyte&quot;s prebuilt design library of UI
+          components, you can integrate video and voice calls into your app or
+          website in minutes.
+        </p>
+        <p>
+          <b>Lead Ride University</b>: Using Dyte&quot;s prebuilt design library of UI
           components, you can integrate video and voice calls into your app or
           website in minutes.
         </p>
 
-        <p>The following platforms are currently supported:</p>
+        <p>The following services  are currently supported:</p>
 
         <ul>
           <li>
-            Mobile: Flutter, Android (Java/Kotlin), iOS(Objective-C/Swift),
-            React Native
+            Lead Ride Tours  
+
           </li>
           <li>
-            Web: Javascript Core SDK + UI Kit for React JS, Angular, Vue, Web
-            Components for everything else
+          Lead Ride B-Well Clubs  
           </li>
-          <li>Desktop: Electron</li>
+          <li>Bike Week </li>
         </ul>
         <p>
-          For more information, see <Link href="/">Dyte docs</Link>.
+          For more information, see <Link href="/">Lead Ride Services</Link>.
         </p>
       </>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
-    question: 'What businesses can use Dyte?',
+    question: 'What businesses can use Lead Ride ?',
     answer:
-      'Dyte can add value to a wide range of industries, including telehealth, eLearning, gaming, remote working, education, event management, metaverse, adult entertainment, and others.',
-    tags: ['General'],
+      'Lead Ride can add value to a wide range of industries, including  product companes, education, fashion and others.',
+    tags: ['City'],
   },
   {
     question: 'What is a Developer Portal?',
@@ -97,7 +101,7 @@ const FAQs = [
         </p>
       </>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'What are Presets?',
@@ -111,7 +115,7 @@ const FAQs = [
         .
       </>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'What are Core SDKs used for?',
@@ -124,7 +128,7 @@ const FAQs = [
         <Link href="/">Dyte docs</Link> for more information.
       </>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'What is the UI Kit?',
@@ -136,13 +140,13 @@ const FAQs = [
         <Link href="/">Dyte docs</Link> for more information.
       </>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'What is the Plugin SDK?',
     answer:
       'You can use Dyte plugin SDKs to add third-party plugins to experience the most immersive, collaborative, and more human interaction right in your video and audio calls. Dyte provides multiple out-of-the-box plugins, for example, YouTube, Miro, WhiteBoard, and so on.',
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question:
@@ -156,7 +160,7 @@ const FAQs = [
         with the credentials you used to sign up for Dyte.
       </p>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question:
@@ -170,13 +174,13 @@ const FAQs = [
         you with your requirements.
       </p>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'How many attendees can be seen on a live grid?',
     answer:
       'In order to provide the best possible experience, we have limited the number of attendees to 6-9. However, we can tailor it to a maximum of 12 attendees.',
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'How many people can join a Dyte webinar?',
@@ -189,7 +193,7 @@ const FAQs = [
         you with your requirements.
       </p>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'What is an organization in Dyte?',
@@ -201,7 +205,7 @@ const FAQs = [
         <b>billing unit</b>.
       </p>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question: 'Where can I find my auth token and room name?',
@@ -227,16 +231,16 @@ const FAQs = [
         </p>
       </>
     ),
-    tags: ['General'],
+    tags: ['City'],
   },
   {
     question:
       'Can I join a meeting from the mobile which is started on the web?',
     answer: 'Yes, you can.',
-    tags: ['General'],
+    tags: ['City'],
   },
 
-  // Technical,
+  // Corporate,
   {
     question:
       'What are the minimum browser and internet requirements for Dyte?',
@@ -261,13 +265,13 @@ const FAQs = [
         </ul>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'What is the difference between a meeting and a session? ',
     answer:
       'Every Dyte communication channel is referred to as a meeting. A meeting is basically a recurring instance of that communication channel, and an ongoing meeting is referred to as a session.',
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'Which part of the meeting is customizable?',
@@ -284,7 +288,7 @@ const FAQs = [
         </p>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'Can I record a meeting?',
@@ -295,7 +299,7 @@ const FAQs = [
         </p>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'Where are the meeting recordings stored?',
@@ -313,7 +317,7 @@ const FAQs = [
         </Link>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'Where is Dyte hosted?',
@@ -327,7 +331,7 @@ const FAQs = [
         blog to understand how Dyte manages a multi-region setup.
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'Can I self-host Dyte on my own servers?',
@@ -337,7 +341,7 @@ const FAQs = [
         Dyte.
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question:
@@ -352,7 +356,7 @@ const FAQs = [
         </ul>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'What backend services can I use with Dyte?',
@@ -364,7 +368,7 @@ const FAQs = [
         <Link href="/api">API Reference documentation.</Link>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'What are webhooks?',
@@ -390,7 +394,7 @@ const FAQs = [
         </p>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question:
@@ -406,7 +410,7 @@ const FAQs = [
         .
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'How do I create a region-specific room?',
@@ -417,7 +421,7 @@ const FAQs = [
         <Link href="/api#/operations/createMeeting">Create a meeting.</Link>
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question:
@@ -428,7 +432,7 @@ const FAQs = [
         users.
       </>
     ),
-    tags: ['Technical'],
+    tags: ['Corporate'],
   },
   {
     question: 'How do I make a payment?',
@@ -438,7 +442,7 @@ const FAQs = [
         card, or do a direct bank transfer.{' '}
       </>
     ),
-    tags: ['Pricing'],
+    tags: ['Institute'],
   },
 ];
 
