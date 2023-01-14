@@ -266,13 +266,13 @@ const config = {
           },
           {
             label: 'Book a demo',
-            href: 'https://dyte.io/schedule-demo',
+            href: '/schedule',
             position: 'right',
             className: 'navbar-book-demo',
           },
           {
             label: 'Sign Up',
-            href: 'https://dev.dyte.io/register',
+            href: '/register',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
           },
@@ -292,15 +292,15 @@ const config = {
             items: [
               {
                 label: 'Demo',
-                href: 'https://app.dyte.io',
+                href: '#',
               },
               {
                 label: 'Developer Portal',
-                href: 'https://dev.dyte.io',
+                href: '#',
               },
               {
                 label: 'Pricing',
-                href: 'https://dyte.io/#pricing',
+                href: '#',
               },
             ],
           },
@@ -309,19 +309,19 @@ const config = {
             items: [
               {
                 label: 'About Us',
-                href: 'https://dyte.io',
+                href: 'https://nncf.life',
               },
               {
                 label: 'Join Us',
-                href: 'https://dyte.freshteam.com/jobs',
+                href: '/jobs',
               },
               {
                 label: 'Privacy Policy',
-                href: 'https://dyte.io/privacy-policy',
+                href: '/privacy-policy',
               },
               {
                 label: 'Contact Us',
-                href: 'https://dyte.io/contact',
+                href: '/contact',
               },
             ],
           },
@@ -330,15 +330,15 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                href: 'https://docs.dyte.io',
+                href: '/guides',
               },
               {
                 label: 'Blog',
-                href: 'https://dyte.io/blog',
+                href: '/blog',
               },
               {
                 label: 'Community',
-                href: 'https://community.dyte.io',
+                href: '/community',
               },
             ],
           },

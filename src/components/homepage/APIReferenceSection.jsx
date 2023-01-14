@@ -58,7 +58,7 @@ future by creating a change maker  across the corporate
 world, thereby supporting wellbeing and active lifestyle of employees. 
               </div>
               <div className="text-zinc-400 text-1xl">
-                  <Link href="//company/main" className="text-primary-100 dark:text-primary">
+                  <Link href="/company/main" className="text-primary-100 dark:text-primary">
             Get started with Employee Wellbeing, Agility and Productivity &rarr;
                 </Link>
               </div>
@@ -71,7 +71,7 @@ world, thereby supporting wellbeing and active lifestyle of employees.
 build livable spaces, thriving & healthy campuses and
 conscious community of youth.
               </div>
-              <Link href="//campus/main" className="text-primary-100 dark:text-primary">
+              <Link href="/campus/main" className="text-primary-100 dark:text-primary">
             Get started with  Student Wellbeing & Sustainable Campus &rarr;
                 </Link>
             </li>

@@ -49,25 +49,31 @@
           </p>
         </div>
       </button>
-      <a
-        class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent text-black dark:text-white"
-        data-dropdown-sdks-menu="plugin"
-        href="plugin-sdk"
-      >
-        <div class="flex-shrink-0">
-          <img
-            src="/static/landing-page/sdk-icons/resources/plugin.svg"
-            class="h-6 w-6"
-          />
-        </div>
-        <div class="flex flex-col items-start justify-start gap-1">
-          <div class="text-base font-semibold">Institution/University</div>
-          <p class="mb-0 text-left text-sm text-text-400">
-            Make your campus active and sustainable
-          </p>
-        </div>
-      </a>
+     
+
+      <button
+      class="flex cursor-pointer items-start justify-start gap-2 border-none bg-transparent"
+      data-dropdown-sdks-menu="desktop"
+      onfocus="document.body.setAttribute('data-sdk-menu', 'desktop')"
+      onmouseover="document.body.setAttribute('data-sdk-menu', 'desktop')"
+    >
+      <div class="flex-shrink-0">
+        <img
+          src="/static/landing-page/sdk-icons/resources/mobile.svg"
+          class="h-6 w-6"
+        />
+      </div>
+      <div class="flex flex-col items-start justify-start gap-1">
+        <div class="text-base font-semibold">Institution/University</div>
+        <p class="mb-0 text-left text-sm text-text-400">
+          Make your campus active and sustainable
+          
+        </p>
+      </div>
+    </button>
     </div>
+
+     <!-- CITY MENU STARTED -->
     <div class="flex-1 p-6">
       <div class="flex gap-2" data-dropdown-sdks="web">
         <div class="flex-1">
@@ -120,6 +126,7 @@
           </ul>
         </div>
       </div>
+     <!-- CORPORATE MENU STARTED -->
 
       <div class="flex flex-col gap-2" data-dropdown-sdks="mobile">
         <div class="flex w-full gap-2">
@@ -182,75 +189,75 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> 
+      </div>
 
-        <!-- <div class="flex w-full gap-2">
-          <div class="mt-4 w-full rounded-lg bg-secondary-700 p-4">
-            <div class="mb-3 text-xs text-text-400">COMING SOON</div>
-
-            <div class="flex gap-2">
-              <div class="flex-1">
-                <ul class="list-none pl-0">
-                  <li>
-                    <a href="#" class="sdk-link">
-                      <img src="/static/landing-page/sdk-icons/react.png" />
-                      React Native
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="sdk-link">
-                      <img src="/static/landing-page/sdk-icons/kotlin.png" />
-                      Android
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="sdk-link">
-                      <img src="/static/landing-page/sdk-icons/swift.png" />
-                      iOS
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="flex-1">
-                <ul class="list-none pl-0">
-                  <li>
-                    <a href="#" class="sdk-link">
-                      <img src="/static/landing-page/sdk-icons/react.png" />
-                      React Native
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="sdk-link">
-                      <img src="/static/landing-page/sdk-icons/swift.png" />
-                      iOS
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+      <!-- CAMPUS  MENU STARTED -->
+      <div class="flex-1 p-6">
+        <div class="flex gap-2" data-dropdown-sdks="desktop">
+          <div class="flex-1">
+            <h3>Campus  Kit</h3>
+  
+            <ul class="list-none pl-0">
+              <li>
+                <a href="/campus/main" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/friends.png" />
+                  Get Started
+                </a>
+              </li>
+              <li>
+                <a href="/campus/captain" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/growth.png" />
+                  Captains
+                </a>
+              </li>
+              <li>
+                <a href="/campus/framework" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/blockchain.png" />
+                  Framework
+                </a>
+              </li>
+              <li>
+                <a href="/campus/themes" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/castle.png" />
+                  Themes
+                </a>
+              </li>
+            </ul>
           </div>
-        </div> -->
-      </div>
-    </div>
-  </div>
+  
+          <div class="flex-1">
+            <h3>Engage </h3>
+  
+            <ul class="list-none pl-0">
+              <li>
+                <a href="/campus-bikeweek/" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/js.png" />
+                  Bike Week
+                </a>
+              </li>
+              <li>
+                <a href="/campus/tour" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/react.png" />
+                  Tour 
+                </a>
+              </li>
 
-  <!-- <a
-    href="#"
-    class="flex items-center justify-between bg-secondary-1000 p-6 text-current"
-  >
-    <div class="flex flex-col gap-2">
-      <div class="flex items-center gap-2 lg:text-lg">
-        <img
-          src="/static/landing-page/sdk-icons/resources/library-books.png"
-          alt="SDK Overview"
-          class="h-6 w-6"
-        />
-        SDK Overview
-      </div>
-      <div class="text-sm text-text-400">
-        Get up and running on new features and techniques.
-      </div>
+              <li>
+                <a href="/campus/joinleadride" class="sdk-link">
+                  <img src="/static/landing-page/sdk-icons/react.png" />
+                  Join Lead Ride 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <!-- CAMPUS SMENU  MENU ENDED -->
     </div>
-    <div>&rarr;</div>
-  </a> -->
+
+  
+      </div>
+
+
+      
 </div>
