@@ -136,7 +136,26 @@ export default function FrameworkHero() {
     <div>
       <section className="container my-10 mx-auto">
         <div className="flex flex-col-reverse lg:flex-row justify-between items-center">
-          <div className="lg:w-2/5 space-y-8 text-center lg:text-left">
+         
+          <img
+            width="900px"
+            src={`/static/framework/framework.png`}
+            alt="bg-illustration"
+          ></img>
+
+        </div>
+      </section>
+      <section className="container my-20 mx-auto flex flex-col lg:flex-row justify-between relative">
+        <div className="space-y-8 lg:w-1/3 text-center lg:text-left mb-8 lg:mb-0">
+          <h2 className="font-bold text-4xl">
+            What’s different about Lead Ride ?
+          </h2>
+          <p className="text-gray-800 lg:max-w-[360px]">
+          Active Mobility enablement with Intent and Impact.
+          </p>
+        </div>
+        
+<div className="lg:w-2/5 space-y-8 text-center lg:text-left">
             <h1 className="font-bold text-4xl lg:text-5xl">
               Wellbeing for students
             </h1>
@@ -149,31 +168,13 @@ export default function FrameworkHero() {
               with cycles , Succeed by riding and Thrive with your network.
             </p>
           </div>
-          <img
-            src="./images/illustration-intro.svg"
-            alt="bg-illustration"
-          ></img>
-        </div>
-      </section>
-      <section className="container my-20 mx-auto flex flex-col lg:flex-row justify-between relative">
-        <div className="space-y-8 lg:w-1/3 text-center lg:text-left mb-8 lg:mb-0">
-          <h2 className="font-bold text-4xl">
-            What’s different about Lead Ride ?
-          </h2>
-          <p className="text-gray-800 lg:max-w-[360px]">
-            Manage provides all the functionality your team needs, without the
-            complexity. Our software is tailor-made for modern digital product
-            teams.
-          </p>
-        </div>
         <div className="lg:w-5/12 space-y-10">
           <div className="space-y-5">
             <h4 className="font-bold mt-1 py-2 rounded-l-full bg-[#ffefeb] lg:bg-transparent -mr-4 lg:mr-0">
               <span className="bg-primary px-5 text-center py-2 rounded-full text-white mr-3">
                 01
               </span>
-              Track company-wide progress
-            </h4>
+             Intentional & Strategic Active Mobility Enablement </h4>
             <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
               See how your day-to-day tasks fit into the wider vision. Go from
               tracking progress at the milestone level all the way done to the
@@ -185,8 +186,7 @@ export default function FrameworkHero() {
               <span className="bg-primary px-5 text-center py-2 rounded-full text-white mr-3">
                 02
               </span>
-              Advanced built-in reports
-            </h4>
+                Sustainable campus plans              </h4>
             <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
               Set internal delivery estimates and track progress toward company
               goals. Our customisable dashboard helps you build out the reports
@@ -199,12 +199,9 @@ export default function FrameworkHero() {
                 <span className="bg-primary px-5 text-center py-2 rounded-full text-white mr-3">
                   03
                 </span>
-                Everything you need in one place
-              </h4>
+                Tranform Faculty From  Lecturers to Coaches </h4>
               <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
-                Stop jumping from one service to another to communicate, store
-                files, track tasks and share documents. Manage offers an
-                all-in-one team productivity solution.
+               Teacher is the future.
               </p>
             </div>
           </div>

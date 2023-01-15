@@ -23,7 +23,10 @@ export default function CaptainStepsFeature() {
 				<div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
 					<span className="text-xs tracking-wider uppercase dark:text-violet-400">Step 1 - Sign Up</span>
 					<span className="text-xl font-bold md:text-2xl">Complete the sign-up</span>
-					<span className="mt-4 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.</span>
+					<span className="mt-4 dark:text-gray-300">  Becoming an Lead Ride Captain is a process that requires dedication, focus, and plenty of abilities to transform your university. 
+					Lead Ride Captain journey starts by signing up and picking a cycle -  that you love and then 
+					building a community of cycling in your university.
+					In addition to promoting cycling, Captains also need to lead a healthy, balanced life.</span>
 				</div>
 			</div>
 			<div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
@@ -36,7 +39,7 @@ export default function CaptainStepsFeature() {
 				<div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
 					<span className="text-xs tracking-wider uppercase dark:text-violet-400">Step 2 - </span>
 					<span className="text-xl font-bold md:text-2xl">Shake Hands</span>
-					<span className="mt-4 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.</span>
+					<span className="mt-4 dark:text-gray-300">   Assemble your Core Team and have a Virtual Meeting with us and we will share a plan to activate lead ride in the campus.</span>
 				</div>
 			</div>
 			<div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
@@ -49,7 +52,7 @@ export default function CaptainStepsFeature() {
 				<div className="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left">
 					<span className="text-xs tracking-wider uppercase dark:text-violet-400">Step 3 - Join</span>
 					<span className="text-xl font-bold md:text-2xl"> Join our Lead Ride Captain networks</span>
-					<span className="mt-4 dark:bg-gray-800 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons equatur nihil ipsum.</span>
+					<span className="mt-4 dark:bg-gray-800 dark:text-gray-300"> We have a Lead Ride Captain Networks from various universities and you can join to discuss and how you can scale and make progress in health goals, fitness goals and wellbeing goals.</span>
 				</div>
 			</div>
 			<div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
