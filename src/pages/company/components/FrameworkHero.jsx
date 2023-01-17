@@ -8,7 +8,7 @@ export function FrameworkHeroSection() {
         <div className="flex flex-col lg:flex-row justify-between space-y-5 lg:space-y-0 lg:space-x-8">
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -19,13 +19,12 @@ export function FrameworkHeroSection() {
               <h2 className="text-xl font-semibold tracking-wide">Wellness</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+             Make wellness and preventive care part of the company. Enable young people to access active lifestyle choices.
             </p>
           </div>
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1557960739-9dc5818d0106?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -38,14 +37,13 @@ export function FrameworkHeroSection() {
               </h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+              Reconnect to the neighborhood around the company and the people - transform neighborhoods and invigorate spaces.
             </p>
           </div>
 
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1622905810727-9cc3126d712e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -56,8 +54,7 @@ export function FrameworkHeroSection() {
               <h2 className="text-xl font-semibold tracking-wide">Growth</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+               Dream Plan and Strategically act to maintain wellness of employees by building habits and behavior change.
             </p>
           </div>
         </div>
@@ -73,56 +70,53 @@ export function FrameworkHeroSection2() {
         <div className="flex flex-col lg:flex-row justify-between space-y-5 lg:space-y-0 lg:space-x-8">
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
             <div className="mt-6 mb-2">
               <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-400">
-                Build
+                Connect
               </span>
               <h2 className="text-xl font-semibold tracking-wide">Community & Connection</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+              Connect employees and enhance team bonding with active lifestyle.
             </p>
           </div>
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
             <div className="mt-6 mb-2">
               <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-400">
-                Enabling
+                Inspire
               </span>
               <h2 className="text-xl font-semibold tracking-wide">
-              Campus Harmony
+              Branding and Story Telling
               </h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+              Create inspiring stories and build your brand with active travel stories.
             </p>
           </div>
 
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
             <div className="mt-6 mb-2">
               <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-400">
-                Plan
+                Integrate
               </span>
-              <h2 className="text-xl font-semibold tracking-wide">Campus Sustainability</h2>
+              <h2 className="text-xl font-semibold tracking-wide">  Sustainability</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+              Integrate sustainability plan for the company.
             </p>
           </div>
         </div>
@@ -139,7 +133,7 @@ export default function FrameworkHero() {
          
           <img
             width="900px"
-            src={`/static/framework/framework.png`}
+            src={`/static/framework/corpframe.png`}
             alt="bg-illustration"
           ></img>
 
@@ -157,10 +151,10 @@ export default function FrameworkHero() {
         
 <div className="lg:w-2/5 space-y-8 text-center lg:text-left">
             <h1 className="font-bold text-4xl lg:text-5xl">
-              Wellbeing for students
+               Proactively build a healthy workforce
             </h1>
             <p className="text-gray-900 lg:w-8/12">
-              Create teaching and learning environments that enable students to
+              Create coaching  and active lifestyle environments that enable employees to
               be healthy, happy, engaged and successful.
             </p>
             <p className="text-gray-900 lg:w-8/12">
@@ -174,11 +168,10 @@ export default function FrameworkHero() {
               <span className="bg-primary px-5 text-center py-2 rounded-full text-white mr-3">
                 01
               </span>
-             Intentional & Strategic Active Mobility Enablement </h4>
+             Intentional & Strategic Wellbeing Enablement </h4>
             <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
-              See how your day-to-day tasks fit into the wider vision. Go from
-              tracking progress at the milestone level all the way done to the
-              smallest of details. Never lose sight of the bigger picture again.
+              Companies build a vision for active lifestyle within the organization and outside the organization.
+              Design your organization for wellness with Lead Ride.
             </p>
           </div>
           <div className="space-y-5">
@@ -186,11 +179,9 @@ export default function FrameworkHero() {
               <span className="bg-primary px-5 text-center py-2 rounded-full text-white mr-3">
                 02
               </span>
-                Sustainable campus plans              </h4>
+                Sustainable   plan             </h4>
             <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
-              Set internal delivery estimates and track progress toward company
-              goals. Our customisable dashboard helps you build out the reports
-              you need to keep key stakeholders informed.
+             Businesses plan for emission mitigation and cannot ignore the crisis around the company- lead ride helps you arrive at a sustainability plan.
             </p>
           </div>
           <div className="flex space-x-5 items-start">
@@ -199,9 +190,9 @@ export default function FrameworkHero() {
                 <span className="bg-primary px-5 text-center py-2 rounded-full text-white mr-3">
                   03
                 </span>
-                Tranform Faculty From  Lecturers to Coaches </h4>
+                Tranform  Managers and Leaders to Coaches </h4>
               <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
-               Teacher is the future.
+               Wellness starts with leadership - building a culture of fitness and wellness starts with leaders and when they drive it 
               </p>
             </div>
           </div>
