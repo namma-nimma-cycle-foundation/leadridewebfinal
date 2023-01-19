@@ -114,7 +114,7 @@ const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Lead Ride',
-  tagline: 'Real-time audio & video SDKs, ready to launch 🚀',
+  tagline: 'Cycling Together - ready to launch 🚴🏻🚴🏻',
   // TODO: Update base url
   url: 'https://leadride.bike',
   baseUrl: '/',
@@ -197,7 +197,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/img/dyte-docs-card.png',
+      image: '/img/logo.png',
       metadata: [{name: 'keywords', content: 'leadride, cyclingtogether'}],
 
       colorMode: {
@@ -260,6 +260,10 @@ const config = {
           {
             label: 'Support',
             to: '/city/contact',
+          },
+          {
+            label : 'Media',
+            to: 'media/mediarelease'
           },
 
           {

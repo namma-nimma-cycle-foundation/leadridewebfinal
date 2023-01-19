@@ -3,7 +3,7 @@ import Link from '@docusaurus/Link';
 import { useColorMode } from '@docusaurus/theme-common';
 
 import {
-  DiscordLogoIcon,
+ 
   LinkedInLogoIcon,
   TwitterLogoIcon,
 } from '@radix-ui/react-icons';
@@ -18,13 +18,11 @@ export default function HomeFooter() {
           <img src={`/logo/${colorMode}.svg`} alt="Logo" className="h-10" />
         </div>
         <div className="flex items-center gap-3">
-          <Link href="">
-            <DiscordLogoIcon className="h-6 w-6 text-zinc-400 hover:text-primary" />
-          </Link>
-          <Link href="https://twitter.com/dyte_io">
+          
+          <Link href="https://twitter.com/nammacycle">
             <TwitterLogoIcon className="h-6 w-6 text-zinc-400 hover:text-primary" />
           </Link>
-          <Link href="https://www.linkedin.com/company/dyteio">
+          <Link href="https://www.linkedin.com/company/leadride">
             <LinkedInLogoIcon className="h-6 w-6 text-zinc-400 hover:text-primary" />
           </Link>
         </div>
