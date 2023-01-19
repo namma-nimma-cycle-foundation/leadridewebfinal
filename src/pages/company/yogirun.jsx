@@ -37,11 +37,9 @@ export const Feature = () => {
                     </svg>
                 </span>
 
-                <h1 className="text-2xl font-semibold  capitalize text-white dark:text-white">Connect to yourself</h1>
-
-                <p className="text-white dark:text-gray-300">
-                mission is to help and inspire people to connect to the nature through yoga and running, serves runners of all ages and abilities annually .
-                     </p>
+                <h1 className="text-2xl font-semibold  capitalize text-white dark:text-white">Connect to yourself</h1> 
+                <p className="text-white dark:text-gray-300">Mission is to help and inspire people to connect to the nature through yoga and running, serves runners of all ages and abilities annually.
+                </p>
 
         
             </div>

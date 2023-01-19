@@ -39,9 +39,8 @@ export const Feature = () => {
 
                 <h1 className="text-2xl font-semibold  capitalize text-white dark:text-white">Connect to yourself</h1>
 
-                <p className="text-white dark:text-gray-300">
-                mission is to help and inspire people to connect to the nature through yoga and running, serves runners of all ages and abilities annually .
-                     </p>
+                <p className="text-white dark:text-gray-300"> mission is to help and inspire people to connect to the nature through yoga and running, serves runners of all ages and abilities annually.
+                 </p>
 
         
             </div>
@@ -121,8 +120,7 @@ export const Feature2 = () => {
                     <div className="mt-4 md:mx-4 md:mt-0">
                         <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configrations</h1>
 
-                        <p className="mt-3 text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                        <p className="mt-3 text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                         </p>
                     </div>
                 </div>
