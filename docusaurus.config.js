@@ -137,7 +137,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dyte-in', // Usually your GitHub org/user name.
+  organizationName: 'nncf', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -198,6 +198,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: '/img/dyte-docs-card.png',
+      metadata: [{name: 'keywords', content: 'leadride, cyclingtogether'}],
+
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
