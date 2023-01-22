@@ -237,10 +237,7 @@ const config = {
             label: 'Design System',
             to: 'guides',
           },
-          {
-            label: 'Success ',
-            to: '/api/',
-          },
+         
           {
             label: 'Resources',
             type: 'dropdown',

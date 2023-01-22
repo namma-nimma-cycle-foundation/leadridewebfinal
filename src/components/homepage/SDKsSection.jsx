@@ -11,7 +11,7 @@ import {
   KotlinIcon,
   ReactIcon,
   SwiftIcon,
-  VueIcon,
+  VueIcon
 } from '../../icons';
 import Head from '@docusaurus/Head';
 import { useState } from 'react';
@@ -137,13 +137,8 @@ export default function SDKsSection() {
               Change the reputation of your city from Traffic City to cycling city.  Build a culture of walking & cycling. 
              
             </p>
-            <Link href="https://dyte.io/contact">Sign In Here </Link> <br></br>
-            <p className="text-sm leading-relaxed text-text-400 lg:max-w-sm">
-            A workflow for everyone, intuitive and immersive.
-          
-
-            </p>
-            <Link href="https://dyte.io/contact">Sign In Here </Link> 
+            <Link href="https://sprw.io/stt-bAHzYEC8vfVZHWkXcgE263">Sign In Here </Link> <br></br>
+            
             {/* <Link className="text-sm">Learn More &rarr;</Link> */}
           </div>
           <div className="flex-1 bg-secondary-800 p-6 px-8 lg:rounded-l-3xl">
@@ -154,21 +149,21 @@ export default function SDKsSection() {
             <div>
               <ul className="mb-0 flex list-none flex-col gap-2 pl-0">
                 <li>
-                  <SDKLink href="react-ui-kit" Icon={ReactIcon} label="Ecosystem Map" />
+                  <SDKLink href="/city/ecosystem" Icon={ReactIcon} label="Ecosystem Map" />
                 </li>
                 <li>
                   <SDKLink
-                    href="angular-ui-kit"
+                    href="/city/champion"
                     Icon={AngularIcon}
                     label="Lead Ride Champions"
                   />
                 </li>
                 <li>
-                  <SDKLink href="vue-ui-kit" Icon={VueIcon} label="Commitment" />
+                  <SDKLink href="/city/main" Icon={VueIcon} label="Commitment" />
                 </li>
                 <li>
                   <SDKLink
-                    href="ui-kit"
+                    href="/city/main"
                     Icon={HTMLIcon}
                     label="Buddy Network"
                   />
@@ -183,15 +178,9 @@ export default function SDKsSection() {
             </p>
             <ul className="mb-0 flex list-none flex-col gap-2 pl-0">
               <li>
-                <SDKLink href="web-core" Icon={JSIcon} label="World Bicycle Day" />
+                <SDKLink href="#" Icon={JSIcon} label="World Bicycle Day" />
               </li>
-              <li>
-                <SDKLink
-                  href="react-ui-kit/basics/using-hooks"
-                  Icon={ReactIcon}
-                  label="Lead Ride +++"
-                />
-              </li>
+              
             </ul>
           </div>
         </div>
@@ -209,7 +198,7 @@ export default function SDKsSection() {
              Bring in the culture of active lifestyle.
              We help you design your company for active mobility.
             </p>
-            <Link href="https://dyte.io/contact">Sign In Here </Link> 
+            <Link href="/company/main">Sign In Here </Link> 
             {/* <Link className="text-sm" href="#">
               Learn More &rarr;
             </Link> */}
@@ -222,20 +211,20 @@ export default function SDKsSection() {
             </p>
             <ul className="flex list-none flex-col gap-2 pl-0">
               <li>
-                <SDKLink href="android" Icon={KotlinIcon} label="Bike Week" />
+                <SDKLink href="/company/main" Icon={KotlinIcon} label="Bike Week" />
               </li>
               <li>
-                <SDKLink href="ios" Icon={SwiftIcon} label="B-Well Club" />
+                <SDKLink href="/company/main" Icon={SwiftIcon} label="B-Well Club" />
               </li>
               <li>
                 <SDKLink
-                  href="react-native"
+                  href="/company/main"
                   Icon={ReactIcon}
                   label="Bicycle Tours"
                 />
               </li>
               <li>
-                <SDKLink href="flutter" Icon={FlutterIcon} label="Nature Connect" />
+                <SDKLink href="/company/main" Icon={FlutterIcon} label="Nature Connect" />
               </li>
             </ul>
             {/* <div className="flex flex-1 flex-col justify-end">
@@ -255,7 +244,7 @@ export default function SDKsSection() {
             <ul className="flex list-none flex-col gap-2 pl-0">
               <li>
                 <SDKLink
-                  href="android-core"
+                  href="/company/main"
                   Icon={KotlinIcon}
                   label="Immersive Experience"
                 />
@@ -263,7 +252,7 @@ export default function SDKsSection() {
 
               <li>
                 <SDKLink
-                  href="city-core"
+                  href="/company/main"
                   Icon={KotlinIcon}
                   label="City Immersive Experience"
                 />
@@ -272,11 +261,11 @@ export default function SDKsSection() {
                 <SDKLink
                   Icon={FlutterIcon}
                   label="Lead Ride Ambassador"
-                  href="flutter-core"
+                  href="/company/main"
                 />
               </li>
               <li>
-                <SDKLink href="rn-core" Icon={ReactIcon} label="Lead Ride Buddy" />
+                <SDKLink href="/company/main" Icon={ReactIcon} label="Lead Ride Buddy" />
               </li>
             </ul>
             <div className="rounded-2xl bg-secondary-700 p-4 dark:bg-secondary-900">
@@ -301,7 +290,7 @@ export default function SDKsSection() {
             Enabling students and young people  to learn, grow and develop through cycling.
             Join us to build a strong and enduring movement for active mobility.
             </p>
-            <Link className="text-sm" href="plugin-sdk">
+            <Link className="text-sm" href="#">
               Learn More &rarr;
             </Link>
           </div>
@@ -371,8 +360,8 @@ export default function SDKsSection() {
 
         <div className="text-center">
           <p>
-            Don&apos;t see your tech stack here?{' '}
-            <Link href="https://dyte.io/contact">Contact Us</Link>
+            Don&apos;t see your   stack here?{' '}
+            <Link href="/city/contact">Contact Us</Link>
           </p>
         </div>
       </div>

@@ -27,7 +27,7 @@ export default function Homepage() {
     
 
       <div className="z-0 bg-secondary-800 dark:bg-secondary-900">
-        <ResourcesSection />
+       
 
         <section className="px-4 pt-16">
           <div className="mx-auto -mb-48 max-w-7xl rounded-3xl bg-white p-4 py-10 text-black dark:bg-black dark:text-white lg:p-24 lg:py-20">
@@ -46,7 +46,7 @@ export default function Homepage() {
 
                 </p>
                 <Link
-                  href="https://dyte.io/contact"
+                  href="/guides"
                   className="text-primary dark:text-primary-100"
                 >
                   View Architecture  &rarr;
@@ -64,27 +64,14 @@ export default function Homepage() {
                 
                 </p>
                 <Link
-                  href="https://dyte.io/contact"
+                  href="/principles"
                   className="darktext-primary-100 :text-primary"
                 >
                   View Principles &rarr;
                 </Link>
               </div>
 
-              <div className="rounded-lg bg-zinc-100 p-6 dark:bg-zinc-900">
-                <img src="/static/landing-page/chat.svg" alt="Book a demo" />
-                <h4 className="my-3">Values</h4>
-                <p className="text-zinc-600 dark:text-zinc-400">
-                  Browse through our FAQs to find answers to commonly asked
-                  questions.
-                </p>
-                <Link
-                  href="/faq"
-                  className="text-primary dark:text-primary-100"
-                >
-                  View Values &rarr;
-                </Link>
-              </div>
+               
 
               <div className="rounded-lg bg-zinc-100 p-6 dark:bg-zinc-900">
                 <img src="/static/landing-page/chat.svg" alt="Book a demo" />
