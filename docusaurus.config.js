@@ -290,23 +290,7 @@ const config = {
           height: '36px',
         },
         links: [
-          {
-            title: 'Product',
-            items: [
-              {
-                label: 'Demo',
-                href: '#',
-              },
-              {
-                label: 'Developer Portal',
-                href: '#',
-              },
-              {
-                label: 'Pricing',
-                href: '#',
-              },
-            ],
-          },
+         
           {
             title: 'Company',
             items: [
@@ -324,7 +308,7 @@ const config = {
               },
               {
                 label: 'Contact Us',
-                href: '/contact',
+                href: '/city/contact',
               },
             ],
           },
@@ -338,11 +322,7 @@ const config = {
               {
                 label: 'Blog',
                 href: '/blog',
-              },
-              {
-                label: 'Community',
-                href: '/community',
-              },
+              } 
             ],
           },
         ],

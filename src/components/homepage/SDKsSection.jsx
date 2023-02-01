@@ -211,20 +211,18 @@ export default function SDKsSection() {
             </p>
             <ul className="flex list-none flex-col gap-2 pl-0">
               <li>
-                <SDKLink href="/company/main" Icon={KotlinIcon} label="Bike Week" />
+                <SDKLink href="/company/bikeweek" Icon={KotlinIcon} label="Bike Week" />
               </li>
-              <li>
-                <SDKLink href="/company/main" Icon={SwiftIcon} label="B-Well Club" />
-              </li>
+            
               <li>
                 <SDKLink
-                  href="/company/main"
+                  href="/company/tours"
                   Icon={ReactIcon}
                   label="Bicycle Tours"
                 />
               </li>
               <li>
-                <SDKLink href="/company/main" Icon={FlutterIcon} label="Nature Connect" />
+                <SDKLink href="/company/rivers" Icon={FlutterIcon} label="Nature Connect" />
               </li>
             </ul>
             {/* <div className="flex flex-1 flex-col justify-end">
@@ -244,28 +242,16 @@ export default function SDKsSection() {
             <ul className="flex list-none flex-col gap-2 pl-0">
               <li>
                 <SDKLink
-                  href="/company/main"
+                  href="/company/experience"
                   Icon={KotlinIcon}
                   label="Immersive Experience"
                 />
               </li>
 
+              
+             
               <li>
-                <SDKLink
-                  href="/company/main"
-                  Icon={KotlinIcon}
-                  label="City Immersive Experience"
-                />
-              </li>
-              <li>
-                <SDKLink
-                  Icon={FlutterIcon}
-                  label="Lead Ride Ambassador"
-                  href="/company/main"
-                />
-              </li>
-              <li>
-                <SDKLink href="/company/main" Icon={ReactIcon} label="Lead Ride Buddy" />
+                <SDKLink href="/company/buddy" Icon={ReactIcon} label="Lead Ride Buddy" />
               </li>
             </ul>
             <div className="rounded-2xl bg-secondary-700 p-4 dark:bg-secondary-900">
@@ -290,7 +276,7 @@ export default function SDKsSection() {
             Enabling students and young people  to learn, grow and develop through cycling.
             Join us to build a strong and enduring movement for active mobility.
             </p>
-            <Link className="text-sm" href="#">
+            <Link className="text-sm" href="/campus/main">
               Learn More &rarr;
             </Link>
           </div>

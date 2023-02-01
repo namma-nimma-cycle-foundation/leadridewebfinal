@@ -8,7 +8,7 @@ export function FrameworkHeroSection() {
         <div className="flex flex-col lg:flex-row justify-between space-y-5 lg:space-y-0 lg:space-x-8">
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1603206004639-22635b71ac08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -19,13 +19,18 @@ export function FrameworkHeroSection() {
               <h2 className="text-xl font-semibold tracking-wide">Wellness</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+          
+             Cycle rides are designed to be low-impact and provide a full-body workout that
+              is easy on the joints and great for cardiovascular health.
+              Lead Ride offers
+               a supportive and inclusive community where you can enjoy the many physical and mental benefits of cycling.
+
+
             </p>
           </div>
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1558947314-402d7060e898?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -38,14 +43,13 @@ export function FrameworkHeroSection() {
               </h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+            we are committed to promoting a healthy and sustainable environment. By encouraging the use of bikes as a form of transportation, we aim to reduce our carbon footprint and contribute to a cleaner future.   
             </p>
           </div>
 
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -56,8 +60,7 @@ export function FrameworkHeroSection() {
               <h2 className="text-xl font-semibold tracking-wide">Growth</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+         Whether you're looking to push yourself to new limits, develop new skills, or simply challenge yourself in new ways, our rides are designed to help you grow and succeed. With a supportive community of riders, you'll have the encouragement and motivation you need to achieve your goals.
             </p>
           </div>
         </div>
@@ -73,7 +76,7 @@ export function FrameworkHeroSection2() {
         <div className="flex flex-col lg:flex-row justify-between space-y-5 lg:space-y-0 lg:space-x-8">
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -84,13 +87,12 @@ export function FrameworkHeroSection2() {
               <h2 className="text-xl font-semibold tracking-wide">Community & Connection</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+             What really sets us apart is our sense of connection and belonging. Whether you're looking to make new friends, reconnect with old ones, or simply find a supportive and inclusive community, Lead Ride is the perfect place to be.
             </p>
           </div>
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1487139975590-b4f1dce9b035?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -103,14 +105,13 @@ export function FrameworkHeroSection2() {
               </h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+            Lead Ride is dedicated to promoting campus harmony and bringing people together through a shared love of cycling.  By fostering a sense of community and connection, we aim to create a more harmonious and inclusive campus environment.
             </p>
           </div>
 
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
             <img
-              src="https://source.unsplash.com/random/300x300/?1"
+              src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
               alt=""
               className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
             />
@@ -121,8 +122,7 @@ export function FrameworkHeroSection2() {
               <h2 className="text-xl font-semibold tracking-wide">Campus Sustainability</h2>
             </div>
             <p className="dark:text-gray-100">
-              Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-              In sed feugiat mi. Etiam ut lacinia dui.
+            . By encouraging the use of bikes as a form of transportation, we aim to reduce our carbon footprint, promote active transportation, and contribute to a healthier and more sustainable future.   
             </p>
           </div>
         </div>
@@ -175,11 +175,13 @@ export default function FrameworkHero() {
                 01
               </span>
              Intentional & Strategic Active Mobility Enablement </h4>
-            <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
-              See how your day-to-day tasks fit into the wider vision. Go from
-              tracking progress at the milestone level all the way done to the
-              smallest of details. Never lose sight of the bigger picture again.
-            </p>
+            <p className="text-gray-800 ml-0 lg:ml-[4.8rem]">
+            Our goal is to empower students to use cycling as a means of connecting to campus and belonging to campus,
+             providing them with the knowledge, skills, and resources needed to make each campus active mobility friendly. 
+             From offering educational workshops and training sessions, to creating safe and accessible cycling routes, 
+             Lead Ride is dedicated to making active mobility a viable option for everyone on campus. 
+            
+               </p>
           </div>
           <div className="space-y-5">
             <h4 className="font-bold mt-1 py-2 rounded-l-full bg-[#ffefeb] lg:bg-transparent -mr-4 lg:mr-0">
@@ -187,10 +189,8 @@ export default function FrameworkHero() {
                 02
               </span>
                 Sustainable campus plans              </h4>
-            <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
-              Set internal delivery estimates and track progress toward company
-              goals. Our customisable dashboard helps you build out the reports
-              you need to keep key stakeholders informed.
+            <p className="text-gray-800 ml-0 lg:ml-[4.8rem]">
+            By encouraging the use of bikes as a form of transportation, we aim to reduce our carbon footprint, promote active transportation, and contribute to a healthier and more sustainable future.
             </p>
           </div>
           <div className="flex space-x-5 items-start">
@@ -200,8 +200,12 @@ export default function FrameworkHero() {
                   03
                 </span>
                 Tranform Faculty From  Lecturers to Coaches </h4>
-              <p className="text-gray-400 ml-0 lg:ml-[4.8rem]">
-               Teacher is the future.
+              <p className="text-gray-800 ml-0 lg:ml-[4.8rem]">
+               Our program encourages faculty to actively participate in cycling, whether as riders or leaders, and provides them with opportunities to connect with their students in a new and meaningful way. 
+               Teacher is the future.we strive to transform faculty from lecturers to coaches, 
+               by providing them with the tools and resources they need to support their students' growth and 
+               development through cycling. 
+             
               </p>
             </div>
           </div>

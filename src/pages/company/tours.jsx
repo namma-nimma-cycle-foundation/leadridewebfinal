@@ -11,7 +11,7 @@ export const Header = () => {
       Lead Ride Tours
     </div>
     <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-      <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />Your browser does not support the video tag.
+      <source src="https://res.cloudinary.com/dsmfsfyci/video/upload/v1675273359/leadride/videos/Biking_-_907_ycs0hw.mp4" type="video/mp4" />Your browser does not support the video tag.
     </video>
   </header>
   <div className="max-w-lg m-auto">

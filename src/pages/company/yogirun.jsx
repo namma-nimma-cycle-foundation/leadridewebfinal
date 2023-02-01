@@ -10,7 +10,7 @@ export const Header = () => {
     <div className="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
 Yogi Run     </div>
     <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-      <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />Your browser does not support the video tag.
+      <source src="https://res.cloudinary.com/dsmfsfyci/video/upload/v1675273036/leadride/videos/yogirun_xu7oh6.mp4" type="video/mp4" />Your browser does not support the video tag.
     </video>
   </header>
   <div className="max-w-lg m-auto">
@@ -144,7 +144,7 @@ export const Feature2 = () => {
             </div>
 
             <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
-                <img className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80" alt=""></img>
+                <img className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://res.cloudinary.com/dsmfsfyci/image/upload/v1606372070/YogirunVeloWeb/velotales.veloscope.in_907_original_tlxfgb.jpg" alt=""></img>
             </div>
         </div>
 

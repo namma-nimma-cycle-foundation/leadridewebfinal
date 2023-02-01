@@ -8,9 +8,9 @@ export const Header = () => {
     <div>
     <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
     <div className="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
-Yogi Run     </div>
+Feel the river within     </div>
     <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-      <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />Your browser does not support the video tag.
+      <source src="https://res.cloudinary.com/dsmfsfyci/video/upload/v1675273539/leadride/videos/Waterfall69786_leqlvw.mp4" type="video/mp4" />Your browser does not support the video tag.
     </video>
   </header>
   <div className="max-w-lg m-auto">
@@ -26,8 +26,8 @@ export const Feature = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
     <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Explore 
-        <span className="text-blue-500">Yogi Run  </span></h1>
+        <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Immerse in    
+        <span className="text-blue-500">  Rivers for Rejuvenation   </span></h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
             <div className="flex flex-col items-center p-6 space-y-3 text-center bg-blue-700 rounded-xl dark:bg-gray-800">
@@ -37,9 +37,9 @@ export const Feature = () => {
                     </svg>
                 </span>
 
-                <h1 className="text-2xl font-semibold  capitalize text-white dark:text-white">Connect to yourself</h1>
+                <h1 className="text-2xl font-semibold  capitalize text-white dark:text-white">Flow with yourself</h1>
 
-                <p className="text-white dark:text-gray-300"> mission is to help and inspire people to connect to the nature through yoga and running, serves runners of all ages and abilities annually.
+                <p className="text-white dark:text-gray-300">   Flow refers to a state of mind which brings together cognitive, physiological and affective aspects. Experience the flow within and Flow outside the river - draw the energy from within .
                  </p>
 
         
@@ -52,11 +52,10 @@ export const Feature = () => {
                     </svg>
                 </span>
 
-                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">Awareness</h1>
+                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">Immerse & find the energy </h1>
 
                 <p className="text-white dark:text-gray-300">
-                Run to create impactful awareness, conscious attention and silence stillness within. 
-                </p>
+                Being immersed can be defined as a state of focus in which a person is completely absorbed and engrossed in their work. While in a flow state, people are highly involved and focused on what they are doing.                </p>
               
             </div>
 
@@ -67,10 +66,10 @@ export const Feature = () => {
                     </svg>
                 </span>
 
-                <h1 className="text-2xl font-semibold   capitalize text-white dark:text-white">Discuss Food </h1>
+                <h1 className="text-2xl font-semibold   capitalize text-white dark:text-white">Positive Psychology  </h1>
                 <p className="text-white dark:text-gray-300">
-                Foods in taking needs t promote the state of wellbeing, reducing the risk of diseases and an overall improvement in health has become the new trend in the field of nutrition. </p>
-            </div>
+                    Strengths | Optimism | Flow | Coping | Communication | Mindfulness
+                    </p>            </div>
         </div>
     </div>
 </section>

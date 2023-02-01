@@ -12,18 +12,22 @@ export default function FooterLayout({ style, links, logo, copyright }) {
       <div className="container-fluid container">
         {logo && <div className="margin-bottom--sm">{logo}</div>}
         <p className="footer__description">
-          Dyte provides developer friendly live video SDKs that allows you to
-          easily add 1:1 calls, group calls and webinars right within your
-          platform. Our low code approach and user friendly documentation means
-          you are ready to go live with less lines of code. We support use cases
-          such as live classes, telehealth, online fitness, remote work, social
-          meetups, dating and B2B sales.
+        Welcome to Lead Ride Cycling Together!
+
+At Lead Ride, we believe in the power of cycling to enhance wellness, promote a healthy environment, foster personal growth, and bring people together in a sense of community and connection.
+
+
+Lead Ride also serves as a platform for   harmony, bringing together business, government and institutions in a shared love for cycling. 
+ 
+ By reducing our dependence on fossil fuels and promoting active transportation, we can work together to create a healthier, more sustainable future.
+
+Join us at Lead Ride today, and let's experience the many benefits of cycling together!
         </p>
         <div className="footer__row">
           <div className="footer__data">
             <div className="footer__cta">
-              <p>Signup to get 10,000 minutes free every month!</p>
-              <Link href="https://dev.dyte.in/signup">Sign Up</Link>
+              <p>Signup to today</p>
+              <Link href="#">Sign Up</Link>
             </div>
           </div>
           <div className="links">{links}</div>
