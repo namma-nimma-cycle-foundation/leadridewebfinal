@@ -60,7 +60,7 @@ export function FrameworkHeroSection() {
               <h2 className="text-xl font-semibold tracking-wide">Growth</h2>
             </div>
             <p className="dark:text-gray-100">
-         Whether you're looking to push yourself to new limits, develop new skills, or simply challenge yourself in new ways, our rides are designed to help you grow and succeed. With a supportive community of riders, you'll have the encouragement and motivation you need to achieve your goals.
+         Whether you are looking to push yourself to new limits, develop new skills, or simply challenge yourself in new ways, our rides are designed to help you grow and succeed. With a supportive community of riders, you will have the encouragement and motivation you need to achieve your goals.
             </p>
           </div>
         </div>
@@ -87,7 +87,7 @@ export function FrameworkHeroSection2() {
               <h2 className="text-xl font-semibold tracking-wide">Community & Connection</h2>
             </div>
             <p className="dark:text-gray-100">
-             What really sets us apart is our sense of connection and belonging. Whether you're looking to make new friends, reconnect with old ones, or simply find a supportive and inclusive community, Lead Ride is the perfect place to be.
+             What really sets us apart is our sense of connection and belonging. Whether you are looking to make new friends, reconnect with old ones, or simply find a supportive and inclusive community, Lead Ride is the perfect place to be.
             </p>
           </div>
           <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
@@ -203,7 +203,7 @@ export default function FrameworkHero() {
               <p className="text-gray-800 ml-0 lg:ml-[4.8rem]">
                Our program encourages faculty to actively participate in cycling, whether as riders or leaders, and provides them with opportunities to connect with their students in a new and meaningful way. 
                Teacher is the future.we strive to transform faculty from lecturers to coaches, 
-               by providing them with the tools and resources they need to support their students' growth and 
+               by providing them with the tools and resources they need to support their students  growth and 
                development through cycling. 
              
               </p>

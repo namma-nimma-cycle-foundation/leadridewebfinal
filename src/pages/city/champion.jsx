@@ -1,7 +1,6 @@
  
 import React from 'react';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
+import Layout from '@theme/Layout'; 
 import FeatureBuddy from './components/FeatureBuddy';
 export default function ChampionPage() {
    

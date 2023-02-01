@@ -1,8 +1,6 @@
  
 import React from 'react';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link'; 
-import MailPostForm from "../../components/MailPostForm";
+import Layout from '@theme/Layout'; 
 export default function ContactPage() {
     const myStyle1 = {
 

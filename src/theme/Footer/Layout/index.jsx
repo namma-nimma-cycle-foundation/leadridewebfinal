@@ -21,7 +21,7 @@ Lead Ride also serves as a platform for   harmony, bringing together business, g
  
  By reducing our dependence on fossil fuels and promoting active transportation, we can work together to create a healthier, more sustainable future.
 
-Join us at Lead Ride today, and let's experience the many benefits of cycling together!
+Join us at Lead Ride today, and let us experience the many benefits of cycling together!
         </p>
         <div className="footer__row">
           <div className="footer__data">

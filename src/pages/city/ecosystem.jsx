@@ -1,8 +1,5 @@
 import React from "react";
-import Layout from "@theme/Layout"; 
-import GalleryFeature from "./components/GalleryFeature";  
-import CityThemes from "./components/CityThemes";
-import HeaderEcoFeature from "./components/ecosystem/HeaderEcoFeature";
+import Layout from "@theme/Layout";  
 import SystemFeature from "./components/ecosystem/SystemFeature";
 
 export default function EcosystemPage() {

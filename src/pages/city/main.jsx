@@ -1,11 +1,8 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
-import GalleryFeature from "./components/GalleryFeature"; 
+import Link from "@docusaurus/Link"; 
 import ReasonLeadRideFeature from "./components/ReasonLeadRideFeature"; 
-import StepperCitySimple from "./components/StepperCitySimple";
-import CityThemes from "./components/CityThemes";
-
+import StepperCitySimple from "./components/StepperCitySimple"; 
 export default function MainPage() {
   const myStyle1 = {
     backgroundImage:

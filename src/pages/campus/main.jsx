@@ -2,8 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import ReasonLeadRideCampusFeature from "./components/ReasonLeadRideCampusFeature"; 
-import StepperCampusSimple from "./components/StepperCampusSimple";
-import CityThemes from "./components/CityThemes";
+import StepperCampusSimple from "./components/StepperCampusSimple"; 
 
 export default function MainPage() {
   const myStyle1 = {
