@@ -502,7 +502,7 @@ export default function CompanyTourPage() {
     return (
 
         <Layout
-        description="Real-time audio & video SDKs, ready to launch 🚀"
+        description="Bicycle Tours for wellness and team building ready to launch 🚀"
         wrapperClassName="homepage flex flex-col"
         noFooter
       >

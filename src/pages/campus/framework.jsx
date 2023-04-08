@@ -6,7 +6,7 @@ export default function FrameworkPage() {
   
   return (
     <Layout
-      description="Real-time audio & video SDKs, ready to launch 🚀"
+      description="Lead Ride - Cycling Together 🚴🏻"
       wrapperClassName="homepage flex flex-col"
       noFooter
     >

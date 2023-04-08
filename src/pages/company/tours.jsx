@@ -30,25 +30,25 @@ export const Feature21 = () => {
     return (
         <div>     
     
-  <section class="py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col md:flex-row md:items-center">
-      <div class="md:w-1/2">
-        <img class="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/7LUnqNj.jpg" alt="Header image"></img>
+  <section className="py-12">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col md:flex-row md:items-center">
+      <div className="md:w-1/2">
+        <img className="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/7LUnqNj.jpg" alt="Header image"></img>
       </div>
-      <div class="md:w-1/2 md:pl-12 mt-8 md:mt-0">
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">Nature connect with Scenic Routes</h2>
-        <p class="text-xl text-gray-700 mb-8">  Experience nature's beauty while riding on safe, traffic-free roads with   Cycle Tours. Our expertly designed routes are crafted to immerse you in breathtaking scenery while ensuring your safety and peace of mind.</p>
-        <div class="md:flex md:flex-row md:-mx-4">
-          <div class="md:w-1/2 md:px-4 mb-8 md:mb-0">
-            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/F0ogKMF.jpg" alt="Feature image"></img> 
-            <h3 class="text-xl font-bold text-gray-900 my-4">Nature Connect</h3>
-            <p class="text-gray-700 mb-4">  Experience the breathtaking beauty of nature on our carefully selected scenic routes. </p>
+      <div className="md:w-1/2 md:pl-12 mt-8 md:mt-0">
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Nature connect with Scenic Routes</h2>
+        <p className="text-xl text-gray-700 mb-8">  Experience  beauty of Nature  while riding on safe, traffic-free roads with   Cycle Tours. Our expertly designed routes are crafted to immerse you in breathtaking scenery while ensuring your safety and peace of mind.</p>
+        <div className="md:flex md:flex-row md:-mx-4">
+          <div className="md:w-1/2 md:px-4 mb-8 md:mb-0">
+            <img className="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/F0ogKMF.jpg" alt="Feature image"></img> 
+            <h3 className="text-xl font-bold text-gray-900 my-4">Nature Connect</h3>
+            <p className="text-gray-700 mb-4">  Experience the breathtaking beauty of nature on our carefully selected scenic routes. </p>
           </div>
-          <div class="md:w-1/2 md:px-4">
-            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/k2xGh1f.jpg" alt="Feature image"></img>
-            <h3 class="text-xl font-bold text-gray-900 my-4">Tours for Everyone</h3>
-            <p class="text-gray-700 mb-4">Our tours are designed to cater to every skill level and give you an unforgettable experience.</p>
+          <div className="md:w-1/2 md:px-4">
+            <img className="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/k2xGh1f.jpg" alt="Feature image"></img>
+            <h3 className="text-xl font-bold text-gray-900 my-4">Tours for Everyone</h3>
+            <p className="text-gray-700 mb-4">Our tours are designed to cater to every skill level and give you an unforgettable experience.</p>
           </div>
         </div>
       </div>
@@ -63,25 +63,25 @@ export const Feature3 = () => {
     return (
         <div>     
     
-  <section class="py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col md:flex-row md:items-center">
-      <div class="md:w-1/2">
-        <img class="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/kZpJJiN.jpg" alt="Header image"></img>
+  <section className="py-12">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col md:flex-row md:items-center">
+      <div className="md:w-1/2">
+        <img className="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/kZpJJiN.jpg" alt="Header image"></img>
       </div>
-      <div class="md:w-1/2 md:pl-12 mt-8 md:mt-0">
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">Building Team Spirit</h2>
-        <p class="text-xl text-gray-700 mb-8"> Are you looking for a unique and engaging way to build team spirit and strengthen relationships within your group? Our Cycle Tours offers the perfect solution</p>
-        <div class="md:flex md:flex-row md:-mx-4">
-          <div class="md:w-1/2 md:px-4 mb-8 md:mb-0">
-            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/Cj0qiwp.jpg" alt="Feature image"></img> 
-            <h3 class="text-xl font-bold text-gray-900 my-4">Unite and Build </h3>
-            <p class="text-gray-700 mb-4"> Unite Your Team and Build Camaraderie with Our  Cycle Tours.</p>
+      <div className="md:w-1/2 md:pl-12 mt-8 md:mt-0">
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Building Team Spirit</h2>
+        <p className="text-xl text-gray-700 mb-8"> Are you looking for a unique and engaging way to build team spirit and strengthen relationships within your group? Our Cycle Tours offers the perfect solution</p>
+        <div className="md:flex md:flex-row md:-mx-4">
+          <div className="md:w-1/2 md:px-4 mb-8 md:mb-0">
+            <img className="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/Cj0qiwp.jpg" alt="Feature image"></img> 
+            <h3 className="text-xl font-bold text-gray-900 my-4">Unite and Build </h3>
+            <p className="text-gray-700 mb-4"> Unite Your Team and Build Camaraderie with Our  Cycle Tours.</p>
           </div>
-          <div class="md:w-1/2 md:px-4">
-            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/k2xGh1f.jpg" alt="Feature image"></img>
-            <h3 class="text-xl font-bold text-gray-900 my-4">Build Wellness Goals</h3>
-            <p class="text-gray-700 mb-4"> We believe that physical activity is a powerful way to bring people together. Our cycling tours provide the ideal environment for teams to push themselves, work together, and achieve their goals. </p>
+          <div className="md:w-1/2 md:px-4">
+            <img className="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/k2xGh1f.jpg" alt="Feature image"></img>
+            <h3 className="text-xl font-bold text-gray-900 my-4">Build Wellness Goals</h3>
+            <p className="text-gray-700 mb-4"> We believe that physical activity is a powerful way to bring people together. Our cycling tours provide the ideal environment for teams to push themselves, work together, and achieve their goals. </p>
           </div>
         </div>
       </div>
@@ -99,27 +99,27 @@ export const Feature4 = () => {
     return (
         <div>     
     
-    <section class="py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col md:flex-row md:items-center">
-      <div class="md:w-1/2 md:pr-12 mt-8 md:mt-0">
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">Active Life and Active Travel</h2>
-        <p class="text-xl text-gray-700 mb-8"> Revitalize Your Senses and Explore the Great Outdoors with Cycle Tours</p>
-        <div class="md:flex md:flex-row md:-mx-4">
-          <div class="md:w-1/2 md:px-4 mb-8 md:mb-0">
-            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/Cj0qiwp.jpg" alt="Feature image"></img>
-            <h3 class="text-xl font-bold text-gray-900 my-4">Wellness </h3>
-            <p class="text-gray-700 mb-4">  staying active and promoting your overall wellness</p>
+    <section className="py-12">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col md:flex-row md:items-center">
+      <div className="md:w-1/2 md:pr-12 mt-8 md:mt-0">
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Active Life and Active Travel</h2>
+        <p className="text-xl text-gray-700 mb-8"> Revitalize Your Senses and Explore the Great Outdoors with Cycle Tours</p>
+        <div className="md:flex md:flex-row md:-mx-4">
+          <div className="md:w-1/2 md:px-4 mb-8 md:mb-0">
+            <img className="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/Cj0qiwp.jpg" alt="Feature image"></img>
+            <h3 className="text-xl font-bold text-gray-900 my-4">Wellness </h3>
+            <p className="text-gray-700 mb-4">  staying active and promoting your overall wellness</p>
           </div>
-          <div class="md:w-1/2 md:px-4">
-            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/vpCCl4P.jpg" alt="Feature image"></img>
-            <h3 class="text-xl font-bold text-gray-900 my-4">Immerse & Explore Nature</h3>
-            <p class="text-gray-700 mb-4">We also enable bird watching and tree walks after the tour. Perfect way to immerse yourself in nature and explore new landscapes, all while staying active and promoting your overall wellness.</p>
+          <div className="md:w-1/2 md:px-4">
+            <img className="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/vpCCl4P.jpg" alt="Feature image"></img>
+            <h3 className="text-xl font-bold text-gray-900 my-4">Immerse & Explore Nature</h3>
+            <p className="text-gray-700 mb-4">We also enable bird watching and tree walks after the tour. Perfect way to immerse yourself in nature and explore new landscapes, all while staying active and promoting your overall wellness.</p>
           </div>
         </div>
       </div>
-      <div class="md:w-1/2">
-        <img class="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/qaF1HEq.jpg" alt="Header image"></img>
+      <div className="md:w-1/2">
+        <img className="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/qaF1HEq.jpg" alt="Header image"></img>
       </div>
     </div>
   </div>
@@ -135,7 +135,7 @@ export default function CompanyTourPage() {
     return (
 
         <Layout
-        description="Real-time audio & video SDKs, ready to launch 🚀"
+        description="Bicycle Tours for wellness and team building ready to launch 🚀"
         wrapperClassName="homepage flex flex-col"
         noFooter
       >
