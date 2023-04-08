@@ -9,9 +9,10 @@ export const Header = () => {
     <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
     <div className="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
       Lead Ride Tours
+      
     </div>
-    <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-      <source src="https://res.cloudinary.com/dsmfsfyci/video/upload/v1675273359/leadride/videos/Biking_-_907_ycs0hw.mp4" type="video/mp4" />Your browser does not support the video tag.
+    <video autoPlay loop   className="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+      <source src="https://res.cloudinary.com/dsmfsfyci/video/upload/v1680954393/leadride/videos/BIKE_WEEK_1_hoae7m.mp4" type="video/mp4" />Your browser does not support the video tag.
     </video>
   </header>
   <div className="max-w-lg m-auto">
@@ -22,158 +23,112 @@ export const Header = () => {
 
   );
 };
+ 
 
-export const Feature = () => {
-  return (
-    <section className="bg-white dark:bg-gray-900">
-    <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Explore 
-        <span className="text-blue-500">Tours </span></h1>
 
-        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
-            <div className="flex flex-col items-center p-6 space-y-3 text-center bg-blue-700 rounded-xl dark:bg-gray-800">
-                <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-full text-white dark:text-white dark:bg-blue-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-                    </svg>
-                </span>
-
-                <h1 className="text-2xl font-semibold  capitalize text-white dark:text-white">Explore</h1>
-
-                <p className="text-white dark:text-gray-300">
-                The cycling tours enables you to explore cycling trails for a varied adventure.
-                 Cycle your way through nature  paths  enables freshness and vigour in your body. 
-                     </p>
-
-        
-            </div>
-
-            <div className="flex flex-col items-center p-6 space-y-3 text-center  bg-blue-700 rounded-xl dark:bg-gray-800">
-                <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                    </svg>
-                </span>
-
-                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">Engage</h1>
-
-                <p className="text-white dark:text-gray-300">
-The Tours gives you an opportunity to engage the team in understanding the challenges of conservation and how you can enrich the life on earth                  </p>
-
-              
-            </div>
-
-            <div className="flex flex-col items-center p-6 space-y-3 text-center  bg-blue-700 rounded-xl dark:bg-gray-800">
-                <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                    </svg>
-                </span>
-
-                <h1 className="text-2xl font-semibold   capitalize text-white dark:text-white">Encourage</h1>
-                <p className="text-white dark:text-gray-300">
-                Use The Weekend To Reboot Your Wellness</p>
-            </div>
+export const Feature21 = () => {
+    return (
+        <div>     
+    
+  <section class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-center">
+      <div class="md:w-1/2">
+        <img class="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/7LUnqNj.jpg" alt="Header image"></img>
+      </div>
+      <div class="md:w-1/2 md:pl-12 mt-8 md:mt-0">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Nature connect with Scenic Routes</h2>
+        <p class="text-xl text-gray-700 mb-8">  Experience nature's beauty while riding on safe, traffic-free roads with   Cycle Tours. Our expertly designed routes are crafted to immerse you in breathtaking scenery while ensuring your safety and peace of mind.</p>
+        <div class="md:flex md:flex-row md:-mx-4">
+          <div class="md:w-1/2 md:px-4 mb-8 md:mb-0">
+            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/F0ogKMF.jpg" alt="Feature image"></img> 
+            <h3 class="text-xl font-bold text-gray-900 my-4">Nature Connect</h3>
+            <p class="text-gray-700 mb-4">  Experience the breathtaking beauty of nature on our carefully selected scenic routes. </p>
+          </div>
+          <div class="md:w-1/2 md:px-4">
+            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/k2xGh1f.jpg" alt="Feature image"></img>
+            <h3 class="text-xl font-bold text-gray-900 my-4">Tours for Everyone</h3>
+            <p class="text-gray-700 mb-4">Our tours are designed to cater to every skill level and give you an unforgettable experience.</p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-  );
-};
-
-
-export const Feature2 = () => {
-  return (
-    <section className="bg-white dark:bg-gray-900">
-    <div className="container px-6 py-10 mx-auto">
-        <div className="lg:flex lg:items-center">
-            <div className="w-full space-y-12 lg:w-1/2 ">
-                <div>
-                    <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore our   awesome Components</h1>
-
-                    <div className="mt-2">
-                        <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-                        <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-                        <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-                    </div>
-                </div>
-
-                <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-                        </svg>
-                    </span>
-
-                    <div className="mt-4 md:mx-4 md:mt-0">
-                        <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Copy & paste components</h1>
-
-                        <p className="mt-3 text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                        </p>
-                    </div>
-                </div>
-
-                <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                        </svg>
-                    </span>
-
-                    <div className="mt-4 md:mx-4 md:mt-0">
-                        <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configrations</h1>
-
-                        <p className="mt-3 text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                        </p>
-                    </div>
-                </div>
-
-                <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
-                        </svg>
-                    </span>
-
-                    <div className="mt-4 md:mx-4 md:mt-0">
-                        <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
-
-                        <p className="mt-3 text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
-                <img className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80" alt=""></img>
-            </div>
+ </div>
+  
+    );
+  };
+export const Feature3 = () => {
+    return (
+        <div>     
+    
+  <section class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-center">
+      <div class="md:w-1/2">
+        <img class="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/kZpJJiN.jpg" alt="Header image"></img>
+      </div>
+      <div class="md:w-1/2 md:pl-12 mt-8 md:mt-0">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Building Team Spirit</h2>
+        <p class="text-xl text-gray-700 mb-8"> Are you looking for a unique and engaging way to build team spirit and strengthen relationships within your group? Our Cycle Tours offers the perfect solution</p>
+        <div class="md:flex md:flex-row md:-mx-4">
+          <div class="md:w-1/2 md:px-4 mb-8 md:mb-0">
+            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/Cj0qiwp.jpg" alt="Feature image"></img> 
+            <h3 class="text-xl font-bold text-gray-900 my-4">Unite and Build </h3>
+            <p class="text-gray-700 mb-4"> Unite Your Team and Build Camaraderie with Our  Cycle Tours.</p>
+          </div>
+          <div class="md:w-1/2 md:px-4">
+            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/k2xGh1f.jpg" alt="Feature image"></img>
+            <h3 class="text-xl font-bold text-gray-900 my-4">Build Wellness Goals</h3>
+            <p class="text-gray-700 mb-4"> We believe that physical activity is a powerful way to bring people together. Our cycling tours provide the ideal environment for teams to push themselves, work together, and achieve their goals. </p>
+          </div>
         </div>
-
-
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-                  </div>
-
-            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-              </div>
-
-            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-             </div>
-
-            <div className="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
-             </div>
-
-            <div className="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">
-              </div>
-        </div>
+      </div>
     </div>
+  </div>
+</section>
+ </div>
+  
+    );
+  };
+
+
+  
+export const Feature4 = () => {
+    return (
+        <div>     
+    
+    <section class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-center">
+      <div class="md:w-1/2 md:pr-12 mt-8 md:mt-0">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Active Life and Active Travel</h2>
+        <p class="text-xl text-gray-700 mb-8"> Revitalize Your Senses and Explore the Great Outdoors with Cycle Tours</p>
+        <div class="md:flex md:flex-row md:-mx-4">
+          <div class="md:w-1/2 md:px-4 mb-8 md:mb-0">
+            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/Cj0qiwp.jpg" alt="Feature image"></img>
+            <h3 class="text-xl font-bold text-gray-900 my-4">Wellness </h3>
+            <p class="text-gray-700 mb-4">  staying active and promoting your overall wellness</p>
+          </div>
+          <div class="md:w-1/2 md:px-4">
+            <img class="h-48 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/vpCCl4P.jpg" alt="Feature image"></img>
+            <h3 class="text-xl font-bold text-gray-900 my-4">Immerse & Explore Nature</h3>
+            <p class="text-gray-700 mb-4">We also enable bird watching and tree walks after the tour. Perfect way to immerse yourself in nature and explore new landscapes, all while staying active and promoting your overall wellness.</p>
+          </div>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img class="h-64 md:h-96 w-full object-cover rounded-lg shadow-md" src="https://i.imgur.com/qaF1HEq.jpg" alt="Header image"></img>
+      </div>
+    </div>
+  </div>
 </section>
 
-  );
-};
+ </div>
+  
+    );
+  };
 export default function CompanyTourPage() {
    
   
@@ -190,8 +145,11 @@ export default function CompanyTourPage() {
   <div>
   <Header></Header>
   
-  <Feature></Feature> 
- 
+  <Feature3></Feature3> 
+  <Feature4></Feature4> 
+  <Feature21></Feature21> 
+
+
 
 
 </div>     
